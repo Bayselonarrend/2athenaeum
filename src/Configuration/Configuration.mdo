@@ -84,7 +84,6 @@
   <scheduledJobs>ScheduledJob.ПингСтраниц</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
-  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Произведения</catalogs>

@@ -1035,7 +1035,7 @@
             <extInfo xsi:type="form:InputFieldExtInfo">
               <handlers>
                 <event>Opening</event>
-                <name>КартинкаОткрытие</name>
+                <name>ПортретОткрытие</name>
               </handlers>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>

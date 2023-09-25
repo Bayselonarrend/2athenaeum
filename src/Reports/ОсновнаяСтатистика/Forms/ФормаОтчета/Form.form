@@ -141,10 +141,6 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -204,10 +200,6 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:ReportFormExtInfo">
-    <handlers>
-      <event>BeforeLoadVariantAtServer</event>
-      <name>ПередЗагрузкойВариантаНаСервере</name>
-    </handlers>
     <reportResult>Результат</reportResult>
     <detailsInformation>ДанныеРасшифровки</detailsInformation>
     <userSettingsGroup>КомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>

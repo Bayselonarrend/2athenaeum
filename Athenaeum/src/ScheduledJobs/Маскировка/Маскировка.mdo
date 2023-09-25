@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcdba1e1-56b0-48e7-8234-0a57b1eb9ad5">
+  <name>Маскировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маскировка</value>
+  </synonym>
+  <methodName>CommonModule.МетодыРегламентныхЗаданий.МаскировочныеПосты</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

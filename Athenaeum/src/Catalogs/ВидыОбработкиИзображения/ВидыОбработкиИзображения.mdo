@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f2fa30d-1cb8-403e-b729-d5bfd09a5e28">
+  <producedTypes>
+    <objectType typeId="06e57e5c-d8e2-4fda-be29-468cb5fc0b97" valueTypeId="4795348d-ca24-4af0-beb4-9a866a760dca"/>
+    <refType typeId="c109377b-d909-4d58-b6ee-9ed1ec135bc4" valueTypeId="be196412-635c-4c71-907a-d2ef230404f7"/>
+    <selectionType typeId="45379703-340e-4bf4-aec2-b1c20f0bc634" valueTypeId="69bd46fe-1d20-4d12-ae7e-8d9ff6d748f0"/>
+    <listType typeId="d2f20eb6-2c92-4a8e-80e0-e3e4ac6f4e25" valueTypeId="65be99a7-187d-4adb-a62e-30ee73cf24d7"/>
+    <managerType typeId="ceb9db37-ac13-4d4b-9c72-cf525142d91b" valueTypeId="bfd2799c-abbe-4b81-89c2-13695d7b8487"/>
+  </producedTypes>
+  <name>ВидыОбработкиИзображения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обработки изображения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОбработкиИзображения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОбработкиИзображения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

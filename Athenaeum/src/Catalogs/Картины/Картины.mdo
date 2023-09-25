@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="514a5144-8c81-43be-9c64-28159e254d6e">
+  <producedTypes>
+    <objectType typeId="4ed9dc22-24e5-482f-9d12-2791817ee935" valueTypeId="9e3265a9-730d-455e-8abe-d8526e21aaba"/>
+    <refType typeId="037e51df-b59b-48b3-a2d6-1d1cadef5568" valueTypeId="aa7b7168-036e-491d-a6a1-183db102910a"/>
+    <selectionType typeId="10e8cf28-b989-4a8a-8a62-57c6633fb15a" valueTypeId="97ee49fb-0465-489a-a409-82894b5164f9"/>
+    <listType typeId="0f69fdb4-ba6f-46be-a799-751745feda2c" valueTypeId="d8bcef17-fdb7-4673-8cf6-db80265d4a89"/>
+    <managerType typeId="1538a88f-13d8-4576-a79b-a29ad476bdec" valueTypeId="e5d7ca77-7199-43e1-bdd3-9aa595c44e6d"/>
+  </producedTypes>
+  <name>Картины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Картины.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Картины.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d8f6ef62-d857-41c4-82ec-7aace775534b">
+    <name>Жанр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жанр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖанрыЖивописи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53df60da-dcb1-4097-9188-fd79606c3eae">
+    <name>Стиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтилиЖивописи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33a96184-8ca2-44ac-98f9-39e31b289261">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba24ccad-83ee-4862-b56d-467f001813fe">
+  <producedTypes>
+    <objectType typeId="7e057078-066a-49bd-b717-c70f9393e287" valueTypeId="1d997f60-5e41-4762-9580-afe3ae91b52c"/>
+    <refType typeId="ef5ac0f6-db8b-4933-8571-a9c5ffaa280c" valueTypeId="cacebd24-2f25-4d25-9010-3ce6fcac89df"/>
+    <selectionType typeId="2c68cbd5-c88c-4061-b0ef-f89b61eff2e8" valueTypeId="ed22307c-d6ce-41ad-89b4-e6ad944df388"/>
+    <listType typeId="2b4611fe-8254-41c6-829a-da0f72d22cd1" valueTypeId="31143470-2815-4c30-b490-e5e291c7031f"/>
+    <managerType typeId="64433973-ddd0-436a-87aa-093c0aae7bec" valueTypeId="1da89367-aae6-4e17-bb6d-c172224a606f"/>
+  </producedTypes>
+  <name>Лонгриды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лонгриды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лонгриды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Лонгриды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Лонгриды.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="39c503db-b4e9-4577-b6fc-430f62a5a0da">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ebcbeec4-c007-44cf-bbbc-9ac136a3dd29">
+    <name>ПоследнееИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее использование</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d29b9fe6-b856-409a-87b5-5bac948c8dc4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

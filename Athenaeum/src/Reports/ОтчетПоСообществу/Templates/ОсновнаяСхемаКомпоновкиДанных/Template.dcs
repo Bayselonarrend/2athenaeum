@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеОпубликовано</dataPath>
+			<field>НеОпубликовано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не опубликовано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сообщество</dataPath>
+			<field>Сообщество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Постов</dataPath>
+			<field>Постов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Постов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВОчереди</dataPath>
+			<field>ВОчереди</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В очереди</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уровень</dataPath>
+			<field>Уровень</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Опубликовано</dataPath>
+			<field>Опубликовано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Опубликовано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Пост.Ссылка) КАК Постов,
+	Сообщества.Ссылка КАК Сообщество,
+	Пост.Уровень КАК Уровень
+ПОМЕСТИТЬ ВсегоПостов
+ИЗ
+	Справочник.Сообщества КАК Сообщества
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.Пост КАК Пост
+		ПО (Пост.Сообщество = Сообщества.Ссылка)
+ГДЕ
+	Пост.Сообщество = &amp;Сообщество
+
+СГРУППИРОВАТЬ ПО
+	Сообщества.Ссылка,
+	Пост.Уровень
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВсегоПостов.Сообщество КАК Сообщество,
+	ВсегоПостов.Постов КАК Постов,
+	СУММА(ВЫБОР
+			КОГДА ПорядокПостов.Опубликован = ИСТИНА
+				ТОГДА 0
+			ИНАЧЕ 1
+		КОНЕЦ) КАК ВОчереди,
+	СУММА(ВЫБОР
+			КОГДА ПорядокПостов.Опубликован = ИСТИНА
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК Опубликовано,
+	ВсегоПостов.Уровень КАК Уровень
+ПОМЕСТИТЬ Финал
+ИЗ
+	ВсегоПостов КАК ВсегоПостов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПорядокПостов КАК ПорядокПостов
+		ПО ВсегоПостов.Сообщество = ПорядокПостов.Пост.Сообщество
+			И ВсегоПостов.Уровень = ПорядокПостов.Пост.Уровень
+
+СГРУППИРОВАТЬ ПО
+	ВсегоПостов.Сообщество,
+	ВсегоПостов.Постов,
+	ВсегоПостов.Уровень
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Финал.Сообщество КАК Сообщество,
+	Финал.Постов КАК Постов,
+	Финал.ВОчереди КАК ВОчереди,
+	Финал.Опубликовано КАК Опубликовано,
+	Финал.Постов - Финал.Опубликовано - Финал.ВОчереди КАК НеОпубликовано,
+	Финал.Уровень КАК Уровень
+ИЗ
+	Финал КАК Финал</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных2</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Охват</dataPath>
+			<field>Охват</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Посетителей</dataPath>
+			<field>Посетителей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подписки</dataPath>
+			<field>Подписки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Лайки</dataPath>
+			<field>Лайки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Репосты</dataPath>
+			<field>Репосты</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НАЧАЛОПЕРИОДА(Статистика.Период, МЕСЯЦ) КАК Период,
+	СУММА(Статистика.Охват) КАК Охват,
+	СУММА(Статистика.Посетителей) КАК Посетителей,
+	СУММА(Статистика.Подписки) КАК Подписки,
+	СУММА(Статистика.Лайки) КАК Лайки,
+	СУММА(Статистика.Репосты) КАК Репосты
+ИЗ
+	РегистрСведений.Статистика КАК Статистика
+ГДЕ
+	Статистика.Сообщество = &amp;Сообщество
+
+СГРУППИРОВАТЬ ПО
+	НАЧАЛОПЕРИОДА(Статистика.Период, МЕСЯЦ)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ВОчереди</dataPath>
+		<expression>Сумма(ВОчереди)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НеОпубликовано</dataPath>
+		<expression>Сумма(НеОпубликовано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Опубликовано</dataPath>
+		<expression>Сумма(Опубликовано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Постов</dataPath>
+		<expression>Сумма(Постов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Охват</dataPath>
+		<expression>Сумма(Охват)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Подписки</dataPath>
+		<expression>Сумма(Подписки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Посетителей</dataPath>
+		<expression>Сумма(Посетителей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Лайки</dataPath>
+		<expression>Сумма(Лайки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Репосты</dataPath>
+		<expression>Сумма(Репосты)</expression>
+	</totalField>
+	<parameter>
+		<name>Сообщество</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сообщество</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Сообщества</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Сообщество</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>a2d9377b-fd7e-4356-8912-37551e3e5b24</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВОчереди</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НеОпубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Опубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Постов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уровень</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Уровень</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.УровниПостов.I</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:MediumGreen</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВОчереди</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НеОпубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Опубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Постов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уровень</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Уровень</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.УровниПостов.II</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:LightBlue</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВОчереди</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НеОпубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Опубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Постов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уровень</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Уровень</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.УровниПостов.Любой</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:BlanchedAlmond</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВОчереди</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НеОпубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Опубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Постов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Сообщество</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уровень</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#000000</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>СтильГраницы</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+								<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Сообщество</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Уровень</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Уровень</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВОчереди</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>НеОпубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Опубликовано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Постов</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Период</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Период</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Охват</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Подписки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Посетителей</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Лайки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Репосты</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

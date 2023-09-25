@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dfafe45-8e6a-4683-ae42-149e9c23b0ee">
+  <producedTypes>
+    <selectionType typeId="d34d270d-f511-4874-97dc-7e41c09b370c" valueTypeId="2f30004b-fdff-4e54-9ba2-96546ffb3219"/>
+    <listType typeId="d8d5bec3-15f4-4ec9-ac6e-a2ba8cf0362e" valueTypeId="c8ed2f7e-6fb9-45f5-845b-17d1680e2274"/>
+    <managerType typeId="ead3ad5d-a6b1-4b8d-97b3-a85b0aa63fd0" valueTypeId="db60ba27-0316-4f9b-8714-96393768872e"/>
+    <recordSetType typeId="58a646c9-485f-41e6-b910-9215891ee8d7" valueTypeId="177e3093-e0a7-47b9-9562-3c1326c6ad13"/>
+    <recordKeyType typeId="2275a5e7-9785-475a-8f03-17bfe7b6334a" valueTypeId="a471799c-05bf-4fbd-b1d5-20edf6ad7864"/>
+    <recordType typeId="c30db7d4-8533-4a51-a76f-9602e2c189f4" valueTypeId="eacab8c2-4b89-42ea-b828-01611fe9859b"/>
+    <recordManagerType typeId="fd9c5f68-1cd0-4b29-bfa4-9f2170bef74f" valueTypeId="0d80f8a9-4efd-4356-b432-8a59a94b35ab"/>
+  </producedTypes>
+  <name>ПорядокПостов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок постов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПорядокПостов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пост</value>
+  </recordPresentation>
+  <resources uuid="b4497646-f5c7-4c5f-9fe8-edab54793479">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2532fc85-c50b-47dd-80ae-a015aa115c59">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Колонки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c76b7cd-97f6-4732-838b-f39d72253675">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0e689276-d003-4c4f-9a61-e9ff0a762b7e">
+    <name>ДатаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата публикации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cfd996bc-01f8-4da3-850d-812dbb28a9c4">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d22d48ba-4545-497c-aeda-f0aa338e4828">
+    <name>Пост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пост</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Пост</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e9e09442-b907-4b09-9df1-361d5b49c630">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

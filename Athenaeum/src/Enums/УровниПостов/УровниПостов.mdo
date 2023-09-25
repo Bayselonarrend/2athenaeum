@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b67e66-18b1-4a7f-ab9f-3f61ac9fadaa">
+  <producedTypes>
+    <refType typeId="6fe6bb45-1a33-462b-885b-38bbf4b4f3ce" valueTypeId="d0f1be7a-b647-42bc-82bb-9a9368b4b6e9"/>
+    <listType typeId="bef8ad44-9364-463d-be70-13a5782ba2b4" valueTypeId="278be1d6-18e9-4329-8aae-3408527083ae"/>
+    <managerType typeId="0d5666c9-4267-4e3a-a9f4-9d341ed04a35" valueTypeId="2c32956d-4b2c-4190-926a-fdea3bb2e945"/>
+  </producedTypes>
+  <name>УровниПостов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни постов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5518dee8-8280-4516-99bc-721b04ba8cfa">
+    <name>Любой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51f80b97-700c-440c-adbc-d4d58be1bc10">
+    <name>I</name>
+    <synonym>
+      <key>ru</key>
+      <value>I</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbdd8da5-5987-4b1a-97a7-304a2f66b65a">
+    <name>II</name>
+    <synonym>
+      <key>ru</key>
+      <value>II</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

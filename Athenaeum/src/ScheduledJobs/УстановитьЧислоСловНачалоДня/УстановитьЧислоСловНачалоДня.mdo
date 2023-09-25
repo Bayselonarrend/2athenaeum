@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53b532e5-83bc-4687-8088-ad153c6495f1">
+  <name>УстановитьЧислоСловНачалоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить число слов начало дня</value>
+  </synonym>
+  <methodName>CommonModule.МетодыРегламентныхЗаданий.УстановитьЧислоСловНачалаДня</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

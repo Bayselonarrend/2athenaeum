@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="830c286e-276f-42bd-800f-03ac4c0fe99b">
+  <name>ПингСтраниц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пинг страниц</value>
+  </synonym>
+  <methodName>CommonModule.МетодыРегламентныхЗаданий.ПингСтраница</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

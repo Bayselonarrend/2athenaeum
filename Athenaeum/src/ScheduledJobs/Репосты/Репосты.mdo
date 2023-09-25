@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0fac325-6644-4881-863d-d75f2a9e9568">
+  <name>Репосты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Репосты</value>
+  </synonym>
+  <methodName>CommonModule.МетодыРегламентныхЗаданий.РепостБотов</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

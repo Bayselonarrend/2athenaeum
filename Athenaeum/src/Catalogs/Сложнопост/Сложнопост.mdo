@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="515c2082-125e-4612-9ad8-8b2c787d7558">
+  <producedTypes>
+    <objectType typeId="e460cd0a-4056-4c22-ad98-63dea2570e01" valueTypeId="c8fb2e7a-bd84-437e-a3a8-311ccaafde8e"/>
+    <refType typeId="4c5cbfa5-a0e8-40d9-9d6b-07254a38c92b" valueTypeId="3930aeb4-e671-4829-9f79-f6d54b71234c"/>
+    <selectionType typeId="1903b1bb-b1a0-4690-bade-b903ec09be0f" valueTypeId="16d6cf50-9616-48a8-9301-e15d60d338dd"/>
+    <listType typeId="f4bb58bd-e597-4863-9676-510bf614b8ad" valueTypeId="9bed4ddf-ab76-4f42-afa0-e68b1c72e7b9"/>
+    <managerType typeId="10718591-3f8f-4176-bcbc-25abc30358c9" valueTypeId="ec7a0583-5acc-4ba7-99d7-900bc3b6d935"/>
+  </producedTypes>
+  <name>Сложнопост</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сложнопост</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сложнопост.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сложнопост.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сложнопост.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="eec635b3-41d9-4cd1-be7f-234079cd55b1">
+    <name>ПоследнееИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее использование</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24dc0c90-42ff-4e83-b8f6-986259c42b15">
+    <name>Сообщество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сообщества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5172574-6ee4-4677-bc64-8beea4fbc783">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1bc2b2ac-a161-41d5-a2d0-36c2ea68efec">
+    <producedTypes>
+      <objectType typeId="ae56d07a-9890-47bd-882b-8548a894fbd2" valueTypeId="95ec4fa3-545c-46b1-854f-fba7599fa553"/>
+      <rowType typeId="e53acc4e-4052-4a78-a26e-f1f5e031012f" valueTypeId="6578c1a9-ac18-458f-9551-caf7bbde9915"/>
+    </producedTypes>
+    <name>Ресурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы</value>
+    </synonym>
+    <attributes uuid="f8393b74-ddb4-48b6-b051-6337587745d1">
+      <name>Медиа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Медиа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Файлы</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>400</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e10502dd-3b0b-4e0c-a133-dbe2c358332e">
+      <name>МедиаДД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Медиа ДД</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c881b6ed-8eb3-444a-bc2e-3d2fe4cb0c5b">
+      <name>ТекстА</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст А</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>900</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0079b5e2-3e49-4fc4-a4a5-08e6480329ba">
+      <name>ТекстБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст Б</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>900</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="647bac24-3510-4a1b-8414-735b8999c383">
+      <name>ТекстВ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст В</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>900</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="53cd8433-9e6d-461a-846a-2b448df5f7d2">
+      <name>ВидОбработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид обработки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыОбработкиИзображения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b169a2bd-6e43-4a24-a36c-d8e68c976e37">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

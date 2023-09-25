@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6308f80b-f8b8-4180-88c1-271b22ce0682">
+  <producedTypes>
+    <objectType typeId="fbb1a120-0d1b-4254-9d71-2d776719cdc6" valueTypeId="eb94d19b-6bc4-4cc6-b8a4-9f00aea626d8"/>
+    <refType typeId="62297cd4-c98c-41e3-b3da-d080c910dc08" valueTypeId="c65fd7f8-525a-41be-86af-5fa6db219606"/>
+    <selectionType typeId="76801b2e-ebad-4d17-9f84-09b81c37ed23" valueTypeId="b330a0c5-05b0-467a-ab9e-65090aa84e31"/>
+    <listType typeId="70c39d2f-226d-4ced-97a2-0dce29829778" valueTypeId="53751986-13d9-4a31-b91b-79ec25ed0fb6"/>
+    <managerType typeId="dcb54222-d618-4212-a0bd-03c7812f55b6" valueTypeId="cbfb9fad-56b7-4bbe-b96d-5b5f9e37cb08"/>
+  </producedTypes>
+  <name>НаборыКлючей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы ключей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыКлючей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборыКлючей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="41199463-924c-4962-a6e6-f180c9640689">
+    <producedTypes>
+      <objectType typeId="29377aed-9d72-4a9f-bf8d-374d6e230041" valueTypeId="3f2d2b28-f020-480c-9ab5-6b4bdd47ce72"/>
+      <rowType typeId="08132160-0772-443a-8321-dc9ab83b89ca" valueTypeId="d1439102-6639-49c7-9e19-d7e08316e7ec"/>
+    </producedTypes>
+    <name>Ключи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключи</value>
+    </synonym>
+    <attributes uuid="ef1eaca7-5443-4742-ac47-66e2c9b5e7cc">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

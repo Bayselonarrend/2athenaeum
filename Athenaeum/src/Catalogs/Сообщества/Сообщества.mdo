@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e8d7bd8-40d2-40f9-9da6-f146ecc543c3">
+  <producedTypes>
+    <objectType typeId="9d24ba0e-3277-435f-ae9e-3b89f99f9b87" valueTypeId="092a3838-48a3-408e-ab16-c0e5049483dd"/>
+    <refType typeId="d9a02836-31bb-4f14-97a1-81ac155b4cca" valueTypeId="39698f2e-95ea-4281-9f06-5a0b66ef8aaf"/>
+    <selectionType typeId="01315065-3d9a-4a52-93a4-21c22e36d348" valueTypeId="e8fa84f7-4dcd-4ae8-b873-5bdd2204e8ba"/>
+    <listType typeId="6f8d5593-12ae-45e1-b30a-40035c76f8e0" valueTypeId="2d8576ba-11de-4a20-abeb-9b4c3405991e"/>
+    <managerType typeId="0353b568-3d29-4d1e-89a6-1397138e2acb" valueTypeId="dd4e7a1d-f1ee-405f-8e31-ef6e161eef6b"/>
+  </producedTypes>
+  <name>Сообщества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сообщества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сообщества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8c9f0c87-16b4-4823-99a0-1e8f137aa0b7">
+      <name>Athenaeum</name>
+      <description>Two- Digit Athenaeum</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9f9a8100-7442-4412-98ec-05b0a4bd6907">
+      <name>ОИ</name>
+      <description>Ого, искусство!</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="ef566de7-0c51-4953-aadc-dc9927e9d635">
+      <name>ПиБ</name>
+      <description>Прах и Бархат</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="1caf6450-5e57-4ea2-9075-a2cf0ae20505">
+      <name>Тест</name>
+      <description>Тест</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сообщества.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Сообщества.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="4155d9c0-72b4-46e4-827f-55ceba3fc438">
+    <name>ВК_ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5f5d74d0-b225-4ae6-b7ac-d3fcb47b932f">
+    <name>ВК_V</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="21c6f624-36cd-4f8d-98ec-fe2a43df154d">
+    <name>ВК_owner_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Owner ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c8147be4-c706-43e0-925c-f9c1c87b2c7f">
+    <name>ВК_client_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a2e0f63a-1e4e-47ba-b863-1428ba05b161">
+    <name>ВК_access_token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>220</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6ba89807-e80f-4c4a-92fd-ff67c562045b">
+    <name>ВК_client_secret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client Secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="10712b1a-f402-4d00-ace5-7e050293b77c">
+    <name>ВК_communitysecret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Community secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="02a0bd8c-c929-4bf2-846e-0a3d346451df">
+    <name>ВК_communitytoken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Community token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>220</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="785f56d3-d2c8-434c-a692-93ae983957b1">
+    <name>ТГ_chat_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="abd9f3ec-e6d6-4a8f-a528-805c4c865106">
+    <name>ТГ_token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cde6ddf5-9857-4597-a921-12692fe1ab80">
+    <name>СсылкаVK</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка VK</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="eef06706-bf3c-47e0-b607-2bcf0f77b683">
+    <name>TGB_token</name>
+    <synonym>
+      <key>ru</key>
+      <value>TGB token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e3ea8c6-f118-4951-93cc-64618a1232d0">
+    <name>IDАльбома</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID Альбома</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8627229f-f480-44c3-b779-56279f972e20">
+    <name>ПостовВДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постов в день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0cc58ff8-5651-4b42-b70d-b60f9066dcdd">
+    <name>ВК_НомерКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер компании</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1cb61b3-3580-4b85-950c-6e58dacb5b98">
+    <name>ВК_Кабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинет (ВК)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РекламныеКабинеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f2c19d3-14ed-4fbe-8485-c842e8a92057">
+    <name>ВК_ДневнойЛимитНаЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневной лимит на запись</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc46be67-b307-46ab-b2ec-e18ce3094a9b">
+    <name>ВК_НомерКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер категории</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03a7cb0b-466c-480a-b0d9-383ebe74bb24">
+    <name>КоличествоОбъявлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество объявлений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27f11020-5d32-4a8c-aecd-60077e37bb55">
+    <name>СтандартныйУровеньПоста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный уровень поста</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровниПостов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9823ba5-05f9-45e8-ba4d-d6263f24fc2b">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСообществ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2040b225-f25f-422f-bfb2-ea16d91cba89">
+    <name>ТипСообщества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщества</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСообществ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca695a56-d30f-41f5-aebb-b6a8e716932e">
+    <name>РаскруткаБотами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрутка ботами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb0a74f3-d58a-4fce-ab96-670de8f134e5">
+    <name>Лого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лого</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="044ea53d-b587-4a4c-a78f-6c2071de1a3e">
+    <name>ИспользоватьСложноПосты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать сложные посты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c913604b-9833-49b3-af9a-a7bdaaa3047c">
+    <name>ПериодичностьСложнопостов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7f200bc-9b9f-497d-bc80-1774658b6e29">
+    <name>СобиратьСтатистику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирать статистику</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0e9b88d6-8c99-41b7-8ab2-1db949491625">
+    <producedTypes>
+      <objectType typeId="3c46e2cc-d206-432c-ab35-572e7a719ef1" valueTypeId="f2362c1e-fd92-4a41-b467-415188dbafbf"/>
+      <rowType typeId="1ab145f7-6c70-4052-9a03-a45f04a51181" valueTypeId="cede15da-844b-413a-adee-bda63bdb5d02"/>
+    </producedTypes>
+    <name>Объявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объявления</value>
+    </synonym>
+    <attributes uuid="8296508f-675a-4572-b123-581cbe76cf69">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cb6a481-5c00-494a-9e98-95bee66d6df0">
+      <name>ДатаОбновления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата обновления</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a131e737-2950-4898-add8-b5a2cb117120">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2d9e444-3c6c-4513-b52b-bdb78333a624">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

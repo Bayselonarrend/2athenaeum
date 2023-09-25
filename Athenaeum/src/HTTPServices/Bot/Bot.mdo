@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72d8e39d-1274-44a5-9915-8c7d35abb89d">
+  <name>Bot</name>
+  <synonym>
+    <key>ru</key>
+    <value>Bot</value>
+  </synonym>
+  <rootURL>bot</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b58dd0cb-da3d-4652-a4e4-cbb0f1503229">
+    <name>tgbot</name>
+    <synonym>
+      <key>ru</key>
+      <value>Tgbot</value>
+    </synonym>
+    <template>/login</template>
+    <methods uuid="667cdb4a-a5b4-4e84-9116-a85dc37cb3af">
+      <name>logIn</name>
+      <synonym>
+        <key>ru</key>
+        <value>Log in</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>tgbotlogIn</handler>
+    </methods>
+    <methods uuid="334896ef-d22b-4fc4-b038-b543990956c0">
+      <name>getLog</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get log</value>
+      </synonym>
+      <handler>tgbotgetLog</handler>
+    </methods>
+    <methods uuid="0e3874fd-d925-40c7-a991-30ce3abcda18">
+      <name>callBack</name>
+      <synonym>
+        <key>ru</key>
+        <value>Call back</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>tgbotcallBack</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="edb076e0-5b66-4069-affe-c1121cf98797">
+    <name>vklogin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vklogin</value>
+    </synonym>
+    <template>/vklogin</template>
+    <methods uuid="b1195b56-e8fc-43ce-8114-b12b3c86d4aa">
+      <name>takeData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Take data</value>
+      </synonym>
+      <handler>vklogintakeData</handler>
+    </methods>
+    <methods uuid="b009f83d-e461-4d17-b086-71d5f5891d15">
+      <name>callBack</name>
+      <synonym>
+        <key>ru</key>
+        <value>Call back</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>vklogincallBack</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1fd8c5dd-de97-426f-a2b0-d4052c148b2c">
+    <name>vkbot</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vkbot</value>
+    </synonym>
+    <template>/vk</template>
+    <methods uuid="43e1b9bb-7d02-4350-973b-30f56de29235">
+      <name>takeData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Take data</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>vkbottakeData</handler>
+    </methods>
+    <methods uuid="dd54a9a7-b7b2-4162-94ae-ffd6f6eb106e">
+      <name>callBack</name>
+      <synonym>
+        <key>ru</key>
+        <value>Call back</value>
+      </synonym>
+      <handler>vkbotcallBack</handler>
+    </methods>
+    <methods uuid="98fb2f3f-6c0e-4eea-a154-9307a7aa3060">
+      <name>cors</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cors</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>vkbotcors</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="db5bba99-cb9b-45cc-b8a4-65bf196c355c">
+    <name>takeStart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Take start</value>
+    </synonym>
+    <template>/sendBook</template>
+    <methods uuid="72637b9e-4c09-42ef-aee7-792fda97eb16">
+      <name>sendData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Send data</value>
+      </synonym>
+      <handler>takeStartsendData</handler>
+    </methods>
+    <methods uuid="942a7339-4b15-46d1-b3ef-b16b88b2663e">
+      <name>callBack</name>
+      <synonym>
+        <key>ru</key>
+        <value>Call back</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>takeStartcallBack</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

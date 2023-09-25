@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0941e7be-ebf2-472a-8fd4-41002afcdc3b">
+  <name>Контент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контент</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Контент</picture>
+  </picture>
+  <content>Document.Пост</content>
+  <content>InformationRegister.ПорядокПостов</content>
+  <content>Catalog.Файлы</content>
+  <content>InformationRegister.Статистика</content>
+  <content>Catalog.РегулярныеПосты</content>
+  <content>Catalog.Расписание</content>
+  <content>InformationRegister.ВыполнениеРасписания</content>
+  <content>Catalog.Сложнопост</content>
+  <content>InformationRegister.ПубликацияСложнопостов</content>
+  <content>Catalog.Тэги</content>
+  <content>InformationRegister.СтатистикаЗаписей</content>
+</mdclass:Subsystem>

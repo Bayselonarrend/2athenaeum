@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d4d79a8-9db4-4404-b41c-1f646bf6e1fd">
+  <producedTypes>
+    <objectType typeId="760f03fa-5b9c-4134-b16c-0ec0fcb86126" valueTypeId="633ebefd-98fd-46fd-b169-f4d4982fac09"/>
+    <refType typeId="502f9f24-cf72-453e-bbd7-29d387c0d9ac" valueTypeId="bbd3f18a-93fb-49cc-ac7b-0424b7abe10a"/>
+    <selectionType typeId="e8bc7c4c-c8c2-4770-95e5-3c4f313bac46" valueTypeId="a6a567d8-edfd-4e3c-b5eb-081ad8ec2dde"/>
+    <listType typeId="3e336f1d-c4f7-47ff-a54b-03aa861f40ca" valueTypeId="fa4830b6-9979-4dea-81c4-9a62490e4338"/>
+    <managerType typeId="ef4ef871-9dec-43eb-9de6-a73ebd63c562" valueTypeId="9185bfc0-2258-433e-bafb-909847b39690"/>
+  </producedTypes>
+  <name>Цитаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цитаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Цитаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Цитаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Цитата</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Цитаты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c0c2b8ff-ae86-4305-b1eb-3df9d2e2ed46">
+    <name>ПроизведениеАвтор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произведение или автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Произведения</types>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df0b3ebe-eba3-4d0f-8e45-c7d2d667ba36">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f915915e-0850-440c-bd39-7d06181f851a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

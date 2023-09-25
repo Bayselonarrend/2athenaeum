@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f3b245d-a3dc-49e5-b73f-645a6e59cfa2">
+  <producedTypes>
+    <objectType typeId="9ea511a3-1723-40fe-a82b-240840e80138" valueTypeId="af89d19a-1337-49c0-83dd-d7e341fd767f"/>
+    <refType typeId="d6e0d56a-e549-432c-8db4-b04678acce22" valueTypeId="a70dac26-373a-4419-af41-be881b6fa949"/>
+    <selectionType typeId="c2e6c598-d62c-4780-a840-2fed5c448e1f" valueTypeId="3b4ecb80-74bd-4e9a-800e-1dc081fc0174"/>
+    <listType typeId="742441c9-d700-410a-bf2d-dfb749fb43b1" valueTypeId="3d142b3a-5269-495d-9728-c039aec23873"/>
+    <managerType typeId="f32d643f-5411-496f-9ce5-e52f46167061" valueTypeId="2d6735d0-1a63-48d3-9eeb-b00eabdd3b8a"/>
+  </producedTypes>
+  <name>Колонки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колонки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Колонки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Колонки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Колонка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Колонки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a6ef6c3c-2a57-4b44-b0da-039384985b1b">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0efde3eb-dc4d-40f8-9fe3-3fa4b9855080">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

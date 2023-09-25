@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e488b790-1262-4104-a8d8-e46860a2428a">
+  <name>Ping</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ping</value>
+  </synonym>
+  <rootURL>ping</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="241afb55-a99c-4c33-8cc6-fa1fd4046a95">
+    <name>returnStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Return status</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="9de8b685-b8c6-4a51-a4b3-e21ad040e9c3">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>returnStatusget</handler>
+    </methods>
+    <methods uuid="e74efb2f-e337-41c6-931a-a33440c5445f">
+      <name>cors</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cors</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>returnStatuscors</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

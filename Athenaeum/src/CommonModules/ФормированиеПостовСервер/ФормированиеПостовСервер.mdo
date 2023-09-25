@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c062b7a-7fbe-4fb2-89eb-e644c0dcd3e7">
+  <name>ФормированиеПостовСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование постов сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

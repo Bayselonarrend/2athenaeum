@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7a3cf2b-50e6-4355-abc0-b271b39e2542">
+  <producedTypes>
+    <selectionType typeId="a50878f6-570d-4e65-b5e7-6af1908adc22" valueTypeId="7411de80-98ab-4068-bb45-f329307ab53d"/>
+    <listType typeId="29eee56c-1618-4e37-9258-3f3dba09cea0" valueTypeId="4b533986-86b3-4bf1-9b2b-669e236e4afc"/>
+    <managerType typeId="7079bb37-77a0-42f7-aa0a-d85da9dcbe65" valueTypeId="0f0b4ba1-d353-47a4-8fcc-10f5aef65cf4"/>
+    <recordSetType typeId="4a50f27f-1215-40f0-a5a2-722908cfb080" valueTypeId="7eda99f0-28d5-4543-8697-c88adecaa116"/>
+    <recordKeyType typeId="6f507a32-b85c-4b17-a201-e280e6c48f7c" valueTypeId="c7570f8a-4bac-44d4-90cc-968f02d9d190"/>
+    <recordType typeId="b4b785d3-1f9f-403e-b8f8-457bc5d2d09d" valueTypeId="e4941ab3-2682-488b-b381-63358a079199"/>
+    <recordManagerType typeId="eea8296d-ba46-491f-917c-2bf880616c14" valueTypeId="8fb9e76e-31ad-4f26-8ea9-6848d10df699"/>
+  </producedTypes>
+  <name>ЛогПингов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лог пингов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6e728f20-fac4-4a1c-95b8-db03279bc39a">
+    <name>КодОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c294cf5d-97d5-4781-abc2-b350e493af0e">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c7a075ff-4ad9-47df-bbc7-d6d0ceeab421">
+    <name>IP</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="639aa010-06d4-4672-801f-b2bb50c05a66">
+    <name>Страница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

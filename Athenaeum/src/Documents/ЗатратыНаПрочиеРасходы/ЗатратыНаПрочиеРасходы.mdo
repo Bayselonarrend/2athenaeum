@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b75d1327-99c8-4c65-8fe8-35c20a176005">
+  <producedTypes>
+    <objectType typeId="c05c880d-a81b-4cde-bb08-62f794b4489b" valueTypeId="ff9992d2-502f-45c8-b8f8-5c15a650d49d"/>
+    <refType typeId="5786db43-b6b9-4eac-90e9-ec1225f41f3b" valueTypeId="21ae5d43-dc02-450f-ae93-8ea385ba5c0f"/>
+    <selectionType typeId="8ed691a3-d5ef-4c8e-9b49-3a555f2513a1" valueTypeId="04390f6a-1304-49e5-af41-202524fd8b0e"/>
+    <listType typeId="26ae3c13-0c60-4302-adbf-75453c8ce5d0" valueTypeId="9b9c4116-0da9-4b1a-a84a-61574393e18c"/>
+    <managerType typeId="3bab11ec-fbdd-4480-a78c-959fccb30dab" valueTypeId="1d4d310a-fbd1-4c76-ba47-603d08eee11f"/>
+  </producedTypes>
+  <name>ЗатратыНаПрочиеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты на прочие расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗатратыНаПрочиеРасходы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗатратыНаПрочиеРасходы.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Финансы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8f26a57f-4ead-445f-9114-fd5a06248b12">
+    <name>Затрата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затрата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрочиеРасходы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1b8f6ac-6a67-4293-aadc-ad5b50ecaa5b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43908fc2-9fde-4fe4-a317-4ae52076cf9d">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="76bb86eb-e3da-456e-bd65-0972aeb72994">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

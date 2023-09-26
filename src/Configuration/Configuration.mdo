@@ -44,7 +44,6 @@
   <subsystems>Subsystem.Сообщества</subsystems>
   <subsystems>Subsystem.Реклама</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
-  <subsystems>Subsystem.Продвижение</subsystems>
   <styles>Style.Основной</styles>
   <commonPictures>CommonPicture.Контент</commonPictures>
   <commonPictures>CommonPicture.БД</commonPictures>
@@ -79,9 +78,6 @@
   <scheduledJobs>ScheduledJob.ПолучитьСтатистику</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПериодическийПостинг</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>
-  <scheduledJobs>ScheduledJob.Репосты</scheduledJobs>
-  <scheduledJobs>ScheduledJob.Маскировка</scheduledJobs>
-  <scheduledJobs>ScheduledJob.ПингСтраниц</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
   <catalogs>Catalog.Люди</catalogs>
@@ -97,9 +93,6 @@
   <catalogs>Catalog.Лонгриды</catalogs>
   <catalogs>Catalog.Сообщества</catalogs>
   <catalogs>Catalog.Сайты</catalogs>
-  <catalogs>Catalog.ЖанрыЖивописи</catalogs>
-  <catalogs>Catalog.СтилиЖивописи</catalogs>
-  <catalogs>Catalog.Картины</catalogs>
   <catalogs>Catalog.РегулярныеПосты</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.РекламныеКабинеты</catalogs>
@@ -109,10 +102,6 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ПрочиеРасходы</catalogs>
   <catalogs>Catalog.Термины</catalogs>
-  <catalogs>Catalog.Боты</catalogs>
-  <catalogs>Catalog.ПабликиМаскировки</catalogs>
-  <catalogs>Catalog.Прокси</catalogs>
-  <catalogs>Catalog.UserAgents</catalogs>
   <catalogs>Catalog.Расписание</catalogs>
   <catalogs>Catalog.ВидыОбработкиИзображения</catalogs>
   <catalogs>Catalog.Сложнопост</catalogs>
@@ -147,10 +136,6 @@
   <informationRegisters>InformationRegister.Статистика</informationRegisters>
   <informationRegisters>InformationRegister.Диалоги</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
-  <informationRegisters>InformationRegister.ИспользованиеБотов</informationRegisters>
-  <informationRegisters>InformationRegister.ИспользованиеПабликовМаскировки</informationRegisters>
-  <informationRegisters>InformationRegister.ЛогPlexus</informationRegisters>
-  <informationRegisters>InformationRegister.ЛогПингов</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеРасписания</informationRegisters>
   <informationRegisters>InformationRegister.ПубликацияСложнопостов</informationRegisters>
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>

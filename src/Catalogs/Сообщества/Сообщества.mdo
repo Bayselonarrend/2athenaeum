@@ -36,20 +36,6 @@
         <value>000000001</value>
       </code>
     </items>
-    <items id="9f9a8100-7442-4412-98ec-05b0a4bd6907">
-      <name>ОИ</name>
-      <description>Ого, искусство!</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
-    <items id="ef566de7-0c51-4953-aadc-dc9927e9d635">
-      <name>ПиБ</name>
-      <description>Прах и Бархат</description>
-      <code xsi:type="core:StringValue">
-        <value>000000004</value>
-      </code>
-    </items>
     <items id="1caf6450-5e57-4ea2-9075-a2cf0ae20505">
       <name>Тест</name>
       <description>Тест</description>

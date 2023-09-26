@@ -38,7 +38,6 @@
       <value>Содержание</value>
     </synonym>
     <type>
-      <types>CatalogRef.Картины</types>
       <types>CatalogRef.События</types>
       <types>CatalogRef.Цитаты</types>
       <types>CatalogRef.Термины</types>

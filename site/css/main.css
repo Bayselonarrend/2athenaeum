@@ -1,0 +1,73 @@
+@font-face{
+
+    font-family:"Book Antiqua";
+    
+    src: url("/fonts/bookantiqua.ttf");
+    font-display: swap;
+  }
+  
+  body,html{
+    background-color:#3d3d3d;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    justify-content:center;
+    min-height:80vh;
+}
+
+body::-webkit-scrollbar{
+    width:8px
+}
+
+body::-webkit-scrollbar-track{
+    background:#3d3d3d
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:#212121;
+    border-radius:25px
+}
+
+button, input{
+  box-shadow:rgba(0,0,0,.40) 0px 5px 7px; 
+}
+
+table,tbody,th,thead{
+    color:#ffffff;
+    max-width: 90vw;
+    overflow-y: show;
+}
+
+small{
+    color:silver;
+}
+
+span{
+    font-size:24px
+}
+
+h1,h2,h3{
+ font-family: Book Antiqua; 
+}
+
+h1,h2{
+  line-height:1;
+  text-transform:uppercase;    
+}
+
+
+a{
+    text-decoration:none;
+    font-weight:400;
+    color:#fff
+}
+
+a:hover{
+    color:silver
+}
+
+
+td{
+ margin-top: 5px;
+}

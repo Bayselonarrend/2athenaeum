@@ -1,0 +1,277 @@
+
+:root {
+  --back: 0;
+  --face: 0;
+  --left: 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(90deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  75% {
+    transform: rotateY(270deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+
+}
+
+kbd{
+ font-size: 40px; 
+ background-color: #212121;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
+
+.scene {
+    width: 100%;
+    border: 0px solid #CCC;
+    margin: auto;
+    margin-top: 4vw;
+    perspective: 100vmax;
+    padding: auto;
+    z-index: 1;    
+}
+
+
+
+.box {
+    width: 280px;
+    height: 480px;
+    margin: auto;
+
+    transform-style: preserve-3d;
+    transform: translateZ(-150px);
+    transition: transform 1s;
+    animation: rotate 12s linear infinite;
+    
+}
+
+.book-logo{
+ position: absolute;
+ top: 3px;
+ width: 32px;
+ height: 32px;
+ image-rendering: pixelated;
+}
+
+.left-title{
+    top:39px;
+}
+
+.left-author{
+    bottom:0;
+    font-family: Trattatello;
+    font-style: italic;
+}
+
+.left-author,.left-title{
+    color:#000;
+    font-size:11px;
+    position:absolute;
+    z-index:3;
+    right:-13px;
+
+}
+
+.box__face {
+    position: absolute;
+    border: 0px solid black;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+  
+.box.show-front    {transform: translateZ(-100px) rotateY(    0deg);}
+.box.show-cover    {transform: translateZ(-100px) rotateY(    0deg);}
+.box.show-right    {transform: translateZ(-150px) rotateY( -90deg);}
+.box.show-left      {transform: translateZ(-150px) rotateY(  90deg);}
+.box.show-top      {transform: translateZ(-150px) rotateX( -90deg);}
+.box.show-bottom {transform: translateZ(-150px) rotateX(  90deg);}
+.box.show-back {transform: translateZ( -100px) rotateY(-180deg) translateX(-50px);}
+
+.box__face {
+    position: absolute;
+    border: 0px solid black;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.bookcontainer{
+ margin-top: 50px;
+ padding: auto;
+ color: white;
+}
+
+.back-description{
+ font-style: italic; 
+ font-size: 12px;
+ color: white;
+ white-space: pre-wrap;
+  position: absolute;
+  top: 30px;
+  line-height: 1;
+  text-align: left;
+  padding: 15px;
+}
+
+.book-title, .book-author{
+ color: white; 
+}
+
+
+.box__face--front {
+transform: rotateY( 0deg) translateZ(0.45cm);
+}
+
+.box__face--cover {
+transform: rotateY( 0deg) translateZ(0.45cm);
+}
+
+.box__face--back {
+    transform: rotateY(180deg) translateZ(0.45cm);
+}
+
+.box__face--right {
+    transform: rotateY( 90deg) translateZ(7.145cm);
+}
+
+.box__face--left {
+    transform: rotateY(-90deg) translateZ(0.45cm);
+}
+
+.box__face--top {
+    transform: rotateX( 90deg) translateZ(0.25cm);
+}
+
+.box__face--bottom {
+    transform: rotateX(-90deg) translateZ(11.345cm);
+}
+
+label {
+    margin-right: 10px;
+}
+
+.box__face--front,
+.box__face--cover,
+.box__face--back {
+    width: 7.8cm;
+    height: 12cm;
+    line-height: 7.8cm;
+}
+
+.box__face--right,
+.box__face--left {
+    width: 0.9cm;
+    height: 12cm;
+    line-height: 0.9cm;
+}
+
+.box__face--right {
+    height: 11.7cm;
+    top: 0.1cm;
+}
+
+.box__face--top,
+.box__face--bottom {
+    width: 7.6cm;
+    height: 0.8cm;
+}
+
+.box__face--front{
+    background: url(/static/patterns/1.webp) 100% 100% no-repeat no-repeat;
+    background-size: 100% 100%
+}
+
+.box__face--cover{
+    background: var(--cover);
+    background-size: 100% 100%
+}
+
+.box__face--back {
+    background: url(/static/patterns/2.webp) 100% 100% no-repeat no-repeat;
+    background-size: 100% 100%
+}
+
+.box__face--left {
+  background: url(/static/patterns/3.webp) 100% 100% no-repeat no-repeat;
+  background-size: 100% 100%;
+  writing-mode: vertical-rl;
+  text-orientation: left;
+}
+
+.box__face--right {
+    background: white no-repeat no-repeat center;
+}
+
+.box__face--top{
+    background: white no-repeat no-repeat center;
+}
+
+.box__face--bottom {
+    background: white no-repeat no-repeat center;
+}
+
+#senderbox{
+ 
+  border-top: 1px solid white;
+
+  padding: 40px;
+  width: 400px;
+  float: none;
+  margin: auto;
+  max-width: 90%;
+  
+  
+}
+
+@media all and (min-width: 1330px) and (min-height: 400px)   {
+	
+	.scene {
+	  padding-left: 6vw;  
+	}
+	
+.books-list{
+ column-count: 3; 
+}
+}
+
+
+@media all and (max-width: 479px) {
+  .scene {
+    transform: scale(0.6); 
+    margin-top: 3px;
+  }
+  
+
+  
+  .bookcontainer{
+    margin-top: 0px;
+    padding: auto;}
+    
+ .box{
+  height: 430px; 
+ }
+
+
+.bookmodel{
+
+ margin-left: 5px;
+}
+
+}
+    

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "settings": {
+    "notify-description-to-server-procedure": {
+      "enabled": false
+    }
+  }
+}

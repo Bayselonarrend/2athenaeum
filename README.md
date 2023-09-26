@@ -17,7 +17,7 @@ Two-Digit Athenaeum - это облачная онлайн библиотека,
 
 Все http реализовано на основе Коннектора HTTP https://github.com/vbondarevsky/Connector
 
-1. Реализацию методов VK и Telegram API
+1. Реализация методов VK и Telegram API
 
   Модули ВК_Апи, ТГ_Апи, ВК_Действия, ТГ_Действия
    

@@ -1,0 +1,48 @@
+.row{
+ justify-content: center; 
+}
+
+.star{
+ width: 128px;
+ height: 128px;
+ border-radius: 20px;
+ border: 2px solid white;
+ margin-bottom: 15px;
+}
+
+#senderbox{
+ justify-content: center;
+ text-align: center;
+ opacity: 0;
+ }
+ 
+ .row{
+   margin-top: 5vw;  
+
+ }
+
+.profile-info{
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+ 
+}
+
+.col-md-7{
+ margin-top: -35px;
+ 
+}
+
+.col-md-2{
+ min-width: 300px; 
+ margin-bottom: -10px;
+}
+
+@media all and (min-width:1330px) and (min-height:400px){
+.col-md-2{
+  padding: 20px;
+  border-radius: 40px;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+}

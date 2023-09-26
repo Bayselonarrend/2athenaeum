@@ -1,0 +1,12 @@
+.result-text{
+ margin-top: 5px; 
+}
+
+
+@media all and (min-width:1330px) and (min-height:400px){
+#content:not(img){
+ margin-left: 140px; 
+}
+
+
+}

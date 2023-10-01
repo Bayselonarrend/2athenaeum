@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c83ecdfd-fcc5-436d-befb-497dd30b4b0a">
+  <name>МетодыФормированияПостов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы формирования постов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

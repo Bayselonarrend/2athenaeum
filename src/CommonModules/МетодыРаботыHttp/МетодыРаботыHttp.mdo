@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="450b1580-0d26-4ed7-98a7-c139fe0b5e34">
-  <name>ТГ_Действия</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4a41941-9374-41d8-9acb-b42528546c21">
+  <name>МетодыРаботыHttp</name>
   <synonym>
     <key>ru</key>
-    <value>Telegram Действия</value>
+    <value>Методы работы http</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

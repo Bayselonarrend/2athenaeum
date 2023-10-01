@@ -26,4 +26,11 @@
       <value>Telegram</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="85f01d75-c2d9-47dc-91cf-560d689ef554">
+    <name>VKT</name>
+    <synonym>
+      <key>ru</key>
+      <value>VK и Telegram</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

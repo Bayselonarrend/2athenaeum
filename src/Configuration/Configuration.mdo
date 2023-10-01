@@ -55,21 +55,18 @@
   <commonPictures>CommonPicture.Реклама</commonPictures>
   <commonPictures>CommonPicture.Финансы</commonPictures>
   <commonPictures>CommonPicture.Бандюга</commonPictures>
-  <commonModules>CommonModule.КоннекторHTTP</commonModules>
-  <commonModules>CommonModule.ВК_Апи</commonModules>
-  <commonModules>CommonModule.ВК_Действия</commonModules>
-  <commonModules>CommonModule.ТГ_Апи</commonModules>
-  <commonModules>CommonModule.ТГ_Действия</commonModules>
-  <commonModules>CommonModule.Сайт_Апи</commonModules>
   <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.МетодыСайтаСервер</commonModules>
-  <commonModules>CommonModule.МетодыБота</commonModules>
   <commonModules>CommonModule.ФорматированиеТекстаСервер</commonModules>
-  <commonModules>CommonModule.ФормированиеПостовСервер</commonModules>
-  <commonModules>CommonModule.ИнструментарийКлиент</commonModules>
   <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаССистемойСервер</commonModules>
+  <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
   <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>
+  <commonModules>CommonModule.МетодыРаботыHttp</commonModules>
+  <commonModules>CommonModule.МетодыРаботыTelegram</commonModules>
+  <commonModules>CommonModule.МетодыРаботыVK</commonModules>
+  <commonModules>CommonModule.МетодыApiСайта</commonModules>
+  <commonModules>CommonModule.МетодыБота</commonModules>
   <httpServices>HTTPService.Bot</httpServices>
   <httpServices>HTTPService.Ping</httpServices>
   <httpServices>HTTPService.GetUsr</httpServices>

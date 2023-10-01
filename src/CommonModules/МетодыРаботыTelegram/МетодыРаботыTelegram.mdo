@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="066ea1a5-658f-4eca-81db-f711034e1696">
-  <name>Сайт_Апи</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bd22831-bdc4-4a71-aab9-6e705d523562">
+  <name>МетодыРаботыTelegram</name>
   <synonym>
     <key>ru</key>
-    <value>Сайт апи</value>
+    <value>Telegram API</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

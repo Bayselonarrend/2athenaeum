@@ -84,6 +84,26 @@
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="99ffd4d6-af68-4c11-87b9-3f15954b9c56">
+    <name>ВК_group_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>В к group id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="21c6f624-36cd-4f8d-98ec-fe2a43df154d">
     <name>ВК_owner_id</name>
     <synonym>

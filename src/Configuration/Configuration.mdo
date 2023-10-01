@@ -57,9 +57,7 @@
   <commonPictures>CommonPicture.Бандюга</commonPictures>
   <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.МетодыСайтаСервер</commonModules>
-  <commonModules>CommonModule.ФорматированиеТекстаСервер</commonModules>
   <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
-  <commonModules>CommonModule.РаботаССистемойСервер</commonModules>
   <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
   <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>
   <commonModules>CommonModule.МетодыРаботыHttp</commonModules>
@@ -93,7 +91,6 @@
   <catalogs>Catalog.РегулярныеПосты</catalogs>
   <catalogs>Catalog.События</catalogs>
   <catalogs>Catalog.РекламныеКабинеты</catalogs>
-  <catalogs>Catalog.НаборыКлючей</catalogs>
   <catalogs>Catalog.КатегорииРекламы</catalogs>
   <catalogs>Catalog.ПерсональныеНастройки</catalogs>
   <catalogs>Catalog.Валюты</catalogs>

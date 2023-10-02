@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1204fff1-b07b-4f0f-84d9-6b624c13cfef">
+  <producedTypes>
+    <objectType typeId="087b2c4b-fdca-46f8-85e2-95111d56a09b" valueTypeId="47722697-5bf9-407f-aab6-75806cb007db"/>
+    <managerType typeId="68894f56-58bb-40e9-9c52-ca90a2658e36" valueTypeId="b8c369a2-e8b0-48eb-91d7-9f5d9c9fd5e0"/>
+  </producedTypes>
+  <name>ОбновлениеКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление книг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеКниг.Form.Форма</defaultForm>
+  <forms uuid="961105a8-524e-40b9-b3b4-7185fd72c99a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

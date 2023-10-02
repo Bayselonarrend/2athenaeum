@@ -1743,27 +1743,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>РаспределитьПосты</name>
-    <title>
-      <key>ru</key>
-      <value>Распределить посты</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Распределить посты</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>РаспределитьПосты</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ЗапоститьТГ</name>
     <title>
       <key>ru</key>

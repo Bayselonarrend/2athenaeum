@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Опубликованный пост</value>
+  </recordPresentation>
   <resources uuid="77851316-8709-4b4a-897d-b5cb3a159d88">
     <name>Опубликовано</name>
     <synonym>

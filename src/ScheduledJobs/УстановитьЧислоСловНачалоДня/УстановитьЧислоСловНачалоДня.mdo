@@ -6,6 +6,7 @@
     <value>Установить число слов начало дня</value>
   </synonym>
   <methodName>CommonModule.МетодыРегламентныхЗаданий.УстановитьЧислоСловНачалаДня</methodName>
+  <key>УстановитьЧислоСлов</key>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

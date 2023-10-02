@@ -20,6 +20,10 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Элемент статистики</value>
+  </recordPresentation>
   <resources uuid="6be14a6b-067a-4313-ad3a-8911ca65b268">
     <name>Охват</name>
     <synonym>

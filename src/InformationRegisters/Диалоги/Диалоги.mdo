@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сообщение диалога</value>
+  </recordPresentation>
   <resources uuid="4db3cfc1-e475-4f79-aedd-d8ee5ec246bc">
     <name>Текст</name>
     <synonym>

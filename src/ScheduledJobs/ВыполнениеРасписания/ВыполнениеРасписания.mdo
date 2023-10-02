@@ -6,7 +6,9 @@
     <value>Выполнение расписания</value>
   </synonym>
   <methodName>CommonModule.МетодыРегламентныхЗаданий.ВыполнениеПоРасписанию</methodName>
+  <key>ВыполнениеРасписания</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

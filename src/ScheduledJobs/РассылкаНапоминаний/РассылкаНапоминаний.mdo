@@ -6,7 +6,9 @@
     <value>Рассылка напоминаний</value>
   </synonym>
   <methodName>CommonModule.МетодыРегламентныхЗаданий.РассылкаУведомлений</methodName>
+  <key>РассылкаНапоминаний</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

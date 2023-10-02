@@ -16,7 +16,6 @@
   <content>InformationRegister.ОтслеживаниеПосещений</content>
   <content>Catalog.Ссылки</content>
   <content>Catalog.Файлы</content>
-  <content>DataProcessor.РучнойЗапускЗаданий</content>
   <content>InformationRegister.ОбращенияКАпи</content>
   <content>DataProcessor.РазборТекстов</content>
 </mdclass:Subsystem>

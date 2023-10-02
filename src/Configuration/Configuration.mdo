@@ -22,7 +22,7 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <mainSectionPicture/>
-  <defaultStyle>Style.Основной</defaultStyle>
+  <defaultStyle>Style.Главный</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -44,7 +44,7 @@
   <subsystems>Subsystem.Сообщества</subsystems>
   <subsystems>Subsystem.Реклама</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
-  <styles>Style.Основной</styles>
+  <styles>Style.Главный</styles>
   <commonPictures>CommonPicture.Контент</commonPictures>
   <commonPictures>CommonPicture.БД</commonPictures>
   <commonPictures>CommonPicture.НСИ</commonPictures>
@@ -54,12 +54,11 @@
   <commonPictures>CommonPicture.Сообщества</commonPictures>
   <commonPictures>CommonPicture.Реклама</commonPictures>
   <commonPictures>CommonPicture.Финансы</commonPictures>
-  <commonPictures>CommonPicture.Бандюга</commonPictures>
   <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
-  <commonModules>CommonModule.МетодыСайтаСервер</commonModules>
   <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
   <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
   <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>
+  <commonModules>CommonModule.МетодыСтатикиСайта</commonModules>
   <commonModules>CommonModule.МетодыРаботыHttp</commonModules>
   <commonModules>CommonModule.МетодыРаботыTelegram</commonModules>
   <commonModules>CommonModule.МетодыРаботыVK</commonModules>
@@ -71,7 +70,6 @@
   <httpServices>HTTPService.VkAuth</httpServices>
   <scheduledJobs>ScheduledJob.УстановитьЧислоСловНачалоДня</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПолучитьСтатистику</scheduledJobs>
-  <scheduledJobs>ScheduledJob.ПериодическийПостинг</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
@@ -117,10 +115,9 @@
   <reports>Report.ОтчетПоФинансам</reports>
   <reports>Report.ОтчетПоСообществу</reports>
   <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
-  <dataProcessors>DataProcessor.РучнойЗапускЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.РазборТекстов</dataProcessors>
+  <dataProcessors>DataProcessor.ОбновлениеКниг</dataProcessors>
   <informationRegisters>InformationRegister.ПорядокПостов</informationRegisters>
-  <informationRegisters>InformationRegister.ОбновлениеДанныхКниг</informationRegisters>
   <informationRegisters>InformationRegister.ПотоковоеЧтение</informationRegisters>
   <informationRegisters>InformationRegister.АктивныеСеансы</informationRegisters>
   <informationRegisters>InformationRegister.ДневнойПрогресс</informationRegisters>

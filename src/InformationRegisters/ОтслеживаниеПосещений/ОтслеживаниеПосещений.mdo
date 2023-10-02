@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Посещение</value>
+  </recordPresentation>
   <resources uuid="3c192fc1-5155-4d18-9a42-c05e9dd9e439">
     <name>Страница</name>
     <synonym>

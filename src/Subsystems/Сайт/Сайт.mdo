@@ -10,9 +10,9 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Сайт</picture>
   </picture>
-  <content>InformationRegister.ОбновлениеДанныхКниг</content>
   <content>Catalog.Пользователи</content>
   <content>InformationRegister.АктивныеСеансы</content>
   <content>Catalog.СтандартныеСтраницы</content>
   <content>Catalog.ПерсональныеНастройки</content>
+  <content>DataProcessor.ОбновлениеКниг</content>
 </mdclass:Subsystem>

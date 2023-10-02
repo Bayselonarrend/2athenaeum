@@ -19,6 +19,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сообщество</value>
+  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -88,12 +92,12 @@
     <name>ВК_group_id</name>
     <synonym>
       <key>ru</key>
-      <value>В к group id</value>
+      <value>Group id</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

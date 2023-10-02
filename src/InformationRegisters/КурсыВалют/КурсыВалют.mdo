@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Курс</value>
+  </recordPresentation>
   <resources uuid="1b47680c-fc26-4a98-9e0f-7c6fd1804f79">
     <name>Курс</name>
     <synonym>

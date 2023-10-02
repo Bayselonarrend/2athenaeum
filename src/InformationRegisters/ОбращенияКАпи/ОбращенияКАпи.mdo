@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Обращение</value>
+  </recordPresentation>
   <resources uuid="0b76bd89-5f7f-49c3-9f3e-7f0ae91788f5">
     <name>Апи</name>
     <synonym>

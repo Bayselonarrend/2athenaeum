@@ -6,7 +6,9 @@
     <value>Получить статистику</value>
   </synonym>
   <methodName>CommonModule.МетодыРегламентныхЗаданий.ПолучитьСтатистику</methodName>
+  <key>ПолучитьСтатистику</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

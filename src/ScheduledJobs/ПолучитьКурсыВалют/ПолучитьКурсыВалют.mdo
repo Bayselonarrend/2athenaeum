@@ -6,7 +6,9 @@
     <value>Получить курсы валют</value>
   </synonym>
   <methodName>CommonModule.МетодыРегламентныхЗаданий.ПолучитьКурсыВалют</methodName>
+  <key>ПолучитьКурсыВалют</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

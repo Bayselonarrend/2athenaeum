@@ -54,8 +54,8 @@
   <commonPictures>CommonPicture.Сообщества</commonPictures>
   <commonPictures>CommonPicture.Реклама</commonPictures>
   <commonPictures>CommonPicture.Финансы</commonPictures>
-  <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
+  <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
   <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>
   <commonModules>CommonModule.МетодыСтатикиСайта</commonModules>
@@ -98,6 +98,7 @@
   <catalogs>Catalog.ВидыОбработкиИзображения</catalogs>
   <catalogs>Catalog.Сложнопост</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
+  <catalogs>Catalog.ТекстыНапоминаний</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>

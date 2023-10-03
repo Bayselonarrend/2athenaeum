@@ -33,11 +33,4 @@
       <value>Еженедельно</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="16cde873-9003-420e-ad95-180fea6b6a61">
-    <name>Ежемесячно</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ежемесячно</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

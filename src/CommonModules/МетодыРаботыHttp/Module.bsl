@@ -1,26 +1,4 @@
-//MIT License
-
-//Copyright (c) 2023 Anton Tsitavets
-
-//Permission is hereby granted, free of charge, to any person obtaining a copy
-//of this software and associated documentation files (the "Software"), to deal
-//in the Software without restriction, including without limitation the rights
-//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//copies of the Software, and to permit persons to whom the Software is
-//furnished to do so, subject to the following conditions:
-
-//The above copyright notice and this permission notice shall be included in all
-//copies or substantial portions of the Software.
-
-//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE.
-
-#Область HTTPМетоды
+#Область ПрограммныйИнтерфейс
 
 Функция Get(Знач URL, Знач Параметры = "") Экспорт
 	
@@ -40,9 +18,9 @@
 	
 КонецФункции
 
+
 Функция Post(Знач URL, Знач Параметры, Знач Файлы) Экспорт
 
-	МассивФайлов 			= Новый Массив;	
 	Boundary 				= СтрЗаменить(Строка(Новый УникальныйИдентификатор()), "-", "");	
 	СтруктураURL 			= РазбитьURL(URL);
 	ИмяФайлаСПараметрами 	= ПолучитьимяВременногоФайла("out"); 	
@@ -73,13 +51,14 @@
 	
 	Счетчик = 0;
 	Для Каждого Файл Из Файлы Цикл 
-				
+		
+		Заглушка = ПолучитьИмяВременногоФайла("jpeg");		
 
 		ЗаписьТекста.ЗаписатьСтроку("--" + boundary + РазделительСтрок);
 		ЗаписьТекста.ЗаписатьСтроку("Content-Disposition: form-data; name=""" 
 					+ Файл.Ключ 
 					+"""; filename=""" 
-					+ ПолучитьИмяВременногоФайла("jpeg") 
+					+ Заглушка 
 					+ """");
 		ЗаписьТекста.ЗаписатьСтроку(РазделительСтрок); 
 		ЗаписьТекста.ЗаписатьСтроку("Content-Type: image/jpeg");
@@ -109,28 +88,13 @@
 		КонецЕсли;
 	КонецЕсли;
 	
+	УдалитьФайлы(ИмяФайлаСПараметрами);
+	УдалитьФайлы(Заглушка);
+	
 	Возврат JsonВСтруктуру(Ответ.ПолучитьТелоКакДвоичныеДанные());
 	
 КонецФункции
 
-#КонецОбласти
-
-
-#Область Служебные
-
-Функция ПараметрыЗапросаВСтроку(Знач Параметры) 
-	
-	СтрокаПараметров = "?";
-	
-	Для Каждого Параметр Из Параметры Цикл
-		СтрокаПараметров = СтрокаПараметров + Параметр.Ключ + "=" + Параметр.Значение + "&";
-	КонецЦикла;
-	
-	СтрокаПараметров = Лев(СтрокаПараметров, СтрДлина(СтрокаПараметров) - 1);
-	
-	Возврат СтрокаПараметров;
-	
-КонецФункции
 
 Функция РазбитьURL(Знач URL) Экспорт
 	
@@ -147,6 +111,7 @@
 	
 КонецФункции
 
+
 Функция JsonВСтруктуру(Знач ТекстДД, Знач Кодировка = "utf-8") Экспорт
 		
 	ЧтениеJSON = Новый ЧтениеJSON;
@@ -158,6 +123,7 @@
 	Возврат Данные;
 
 КонецФункции
+
 
 Функция JSONСтрокой(Знач Данные) Экспорт
 	
@@ -174,12 +140,31 @@
 Функция ЧислоВСтроку(Знач Число) Экспорт
 	Возврат СтрЗаменить(Строка(Число), Символы.НПП, "");
 КонецФункции
+
 #КонецОбласти
 
-#Область GZip
+
+
+
+#Область СлужебныеПроцедурыИФункции
 
 // Описание структур см. здесь https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT
 // Источник: https://github.com/vbondarevsky/Connector 
+
+Функция ПараметрыЗапросаВСтроку(Знач Параметры) 
+	
+	СтрокаПараметров = "?";
+	
+	Для Каждого Параметр Из Параметры Цикл
+		СтрокаПараметров = СтрокаПараметров + Параметр.Ключ + "=" + Параметр.Значение + "&";
+	КонецЦикла;
+	
+	СтрокаПараметров = Лев(СтрокаПараметров, СтрДлина(СтрокаПараметров) - 1);
+	
+	Возврат СтрокаПараметров;
+	
+КонецФункции
+
 
 Функция РаспаковатьОтвет(Ответ)
 	
@@ -193,6 +178,7 @@
 	Возврат Ответ.Тело;
 	
 КонецФункции
+
 
 Функция ПрочитатьGZip(СжатыеДанные) Экспорт
 	
@@ -224,6 +210,7 @@
 	
 КонецФункции
 
+
 Функция ПрочитатьZip(СжатыеДанные, ТекстОшибки = Неопределено)
 	
 	Каталог = ПолучитьИмяВременногоФайла();
@@ -244,11 +231,13 @@
 	
 КонецФункции
 
+
 Функция ZipРазмерLFH()
 	
 	Возврат 34;
 	
 КонецФункции
+
 
 Функция ZipРазмерDD()
 	
@@ -256,17 +245,20 @@
 	
 КонецФункции
 
+
 Функция ZipРазмерCDH()
 	
 	Возврат 50;
 	
 КонецФункции
 
+
 Функция ZipРазмерEOCD()
 	
 	Возврат 22;
 	
 КонецФункции
+
 
 Функция ZipLFH()
 	
@@ -289,6 +281,7 @@
 	
 КонецФункции
 
+
 Функция ZipDD(CRC32, РазмерСжатыхДанных, РазмерНесжатыхДанных)
 	
 	// Data descriptor
@@ -301,6 +294,7 @@
 	Возврат Буфер;
 	
 КонецФункции
+
 
 Функция ZipCDH(CRC32, РазмерСжатыхДанных, РазмерНесжатыхДанных)
 	
@@ -328,6 +322,7 @@
 	Возврат Буфер;
 
 КонецФункции
+
 
 Функция ZipEOCD(РазмерСжатыхДанных)
 	

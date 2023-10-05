@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ae54d3-151d-4782-8b0c-5842444d81c7">
-  <name>Конфигурация</name>
+  <name>Aioniotis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Two-Digit Athenaeum</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="440f70b9-00a0-4744-9af8-64b247b5cc4c"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b7065c3a-17fa-442b-80de-7f75c79a1e47"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6c4d829b-13b6-42ba-a2e9-b9963a17e94a"/>
@@ -25,6 +29,7 @@
   <defaultStyle>Style.Главный</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
+  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <compatibilityMode>8.3.15</compatibilityMode>
@@ -68,7 +73,6 @@
   <httpServices>HTTPService.Ping</httpServices>
   <httpServices>HTTPService.GetUsr</httpServices>
   <httpServices>HTTPService.VkAuth</httpServices>
-  <httpServices>HTTPService.Test</httpServices>
   <scheduledJobs>ScheduledJob.УстановитьЧислоСловНачалоДня</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПолучитьСтатистику</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>

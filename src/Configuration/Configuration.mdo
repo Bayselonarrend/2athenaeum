@@ -129,7 +129,6 @@
   <informationRegisters>InformationRegister.ДневнойПрогресс</informationRegisters>
   <informationRegisters>InformationRegister.ЖурналИсключений</informationRegisters>
   <informationRegisters>InformationRegister.ОтслеживаниеПосещений</informationRegisters>
-  <informationRegisters>InformationRegister.ОбращенияКАпи</informationRegisters>
   <informationRegisters>InformationRegister.Статистика</informationRegisters>
   <informationRegisters>InformationRegister.Диалоги</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>

@@ -45,11 +45,25 @@
 		
 	ИначеЕсли ОтветОбъект.Свойство("callback_query") Тогда
 		
-		МетодыБота.ОбработатьИзменениеОповещений(ОтветОбъект.callback_query.from.id
-			, Перечисления.СоцСети.Telegram
-			, ОтветОбъект.callback_query.data);
+		Никнейм						= ?(ОтветОбъект.callback_query.from.Свойство("username"), ОтветОбъект.callback_query.from.username, "");
+		ИдентификаторПользователя 	= ОтветОбъект.callback_query.from.id;
+		ИдентификаторЧата 			= ОтветОбъект.callback_query.message.chat.id;
+		ТекстСообщения				= ОтветОбъект.callback_query.data;
+		ИмяПользователя				= ?(ОтветОбъект.callback_query.from.Свойство("first_name")
+					,ОтветОбъект.callback_query.from.first_name + " "
+					,"") 
+					+ 
+					?(ОтветОбъект.callback_query.from.Свойство("last_name")
+					,ОтветОбъект.callback_query.from.last_name
+					,"");
+					
+					
+					
+		//МетодыБота.ОбработатьИзменениеОповещений(ОтветОбъект.callback_query.from.id
+		//	, Перечисления.СоцСети.Telegram
+		//	, ОтветОбъект.callback_query.data);
 			
-		Возврат Ответ;
+		//Возврат Ответ;
 					
 	Иначе
 		

@@ -869,40 +869,6 @@
             <name>СписокРегламентныхЗаданийГруппа2</name>
             <id>128</id>
             <items xsi:type="form:Button">
-              <name>СписокРегламентныхЗаданийВыполнитьЗаданиеВручную</name>
-              <id>111</id>
-              <title>
-                <key>ru</key>
-                <value>На клиенте</value>
-              </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>СписокРегламентныхЗаданийВыполнитьЗаданиеВручнуюРасширеннаяПодсказка</name>
-                <id>112</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.ВыполнитьЗаданиеВручную</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
               <name>СписокРегламентныхЗаданийВыполнитьЗадание</name>
               <id>109</id>
               <title>
@@ -1515,40 +1481,6 @@
         <items xsi:type="form:FormGroup">
           <name>СписокРегламентныхЗаданийКонтекстноеМенюГруппа1</name>
           <id>172</id>
-          <items xsi:type="form:Button">
-            <name>СписокРегламентныхЗаданийКонтекстноеМенюВыполнитьЗаданиеВручную</name>
-            <id>144</id>
-            <title>
-              <key>ru</key>
-              <value>На клиенте</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СписокРегламентныхЗаданийКонтекстноеМенюВыполнитьЗаданиеВручнуюРасширеннаяПодсказка</name>
-              <id>145</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ВыполнитьЗаданиеВручную</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
           <items xsi:type="form:Button">
             <name>СписокРегламентныхЗаданийКонтекстноеМенюЗапуститьЗадание</name>
             <id>146</id>
@@ -3998,30 +3930,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗапуститьЗадание</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыполнитьЗаданиеВручную</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить На клиенте</value>
-    </title>
-    <id>13</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить На клиенте</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьЗаданиеВручную</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>

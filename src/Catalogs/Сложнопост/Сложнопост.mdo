@@ -104,10 +104,6 @@
       </synonym>
       <type>
         <types>CatalogRef.Файлы</types>
-        <types>String</types>
-        <stringQualifiers>
-          <length>400</length>
-        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

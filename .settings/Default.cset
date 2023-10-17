@@ -3,6 +3,21 @@
   "settings": {
     "notify-description-to-server-procedure": {
       "enabled": false
+    },
+    "export-procedure-missing-comment": {
+      "enabled": false
+    },
+    "data-composition-conditional-appearance-use": {
+      "enabled": false
+    },
+    "method-optional-parameter-before-required": {
+      "enabled": false
+    },
+    "md-object-attribute-comment-not-exist": {
+      "enabled": false
+    },
+    "bsl-variable-name-invalid": {
+      "enabled": false
     }
   }
 }

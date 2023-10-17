@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Затраты на прочие расходы</value>
   </synonym>
+  <comment>Документ фиксации затрат нерекламных расходов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ЗатратыНаПрочиеРасходы.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>

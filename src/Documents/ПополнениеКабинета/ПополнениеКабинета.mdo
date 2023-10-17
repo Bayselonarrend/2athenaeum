@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Пополнение кабинета</value>
   </synonym>
+  <comment>Документ рекламных расходов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПополнениеКабинета.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>

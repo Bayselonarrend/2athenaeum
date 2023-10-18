@@ -2,7 +2,11 @@
 
 &НаСервере
 Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
+	//@skip-check unknown-form-parameter-access
+	//@skip-check unknown-form-parameter-access
 	Автообновление = Параметры.Автообновление;
+	//@skip-check unknown-form-parameter-access
+	//@skip-check unknown-form-parameter-access
 	ПериодАвтообновления = Параметры.ПериодАвтообновления;
 	Если ПериодАвтообновления < 5 Тогда
 		ПериодАвтообновления = 5;

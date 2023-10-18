@@ -9,7 +9,11 @@
 		Элементы.МетаданныеВыбор.СписокВыбора.Добавить(Метаданное.Имя, Метаданное.Представление());
 	КонецЦикла;
 	
+	//@skip-check unknown-form-parameter-access
+	//@skip-check unknown-form-parameter-access
 	Если Параметры.Отбор <> Неопределено Тогда
+		//@skip-check unknown-form-parameter-access
+		//@skip-check unknown-form-parameter-access
 		Для Каждого Свойство из Параметры.Отбор Цикл
 			Если Свойство.Ключ = "Ключ" Тогда
 				Ключ = Свойство.Значение;

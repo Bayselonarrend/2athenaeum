@@ -15,7 +15,11 @@
 	ЗавершеноАварийно = Ложь;
 	Отменено = Ложь;
 	
+	//@skip-check unknown-form-parameter-access
+	//@skip-check unknown-form-parameter-access
 	Если Параметры.Отбор <> Неопределено Тогда
+		//@skip-check unknown-form-parameter-access
+		//@skip-check unknown-form-parameter-access
 		Отбор = Параметры.Отбор.Получить();
 		Для Каждого Свойство из Отбор Цикл
 			Если Свойство.Ключ = "Начало" Тогда

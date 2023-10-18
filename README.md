@@ -2,6 +2,9 @@
 
 # Two-Digit Athenaeum
 
+[![Статус порога качества](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Aioniotis&metric=alert_status)](https://api.athenaeum.digital/Sonar/dashboard?id=Aioniotis)
+[![Строки кода](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Aioniotis&metric=ncloc)](https://api.athenaeum.digital/Sonar/dashboard?id=Aioniotis)
+
 *Two-Digit Athenaeum* - это облачная онлайн библиотека, расположенная по адресу https://athenaeum.digital. Книги в ней распространяются посредством отправки ботом сообщений в ВК и Telegram. Она состоит из:
 
 1. Сайта (html/css + js (ajax))

@@ -113,37 +113,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СтруктураСайта.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="2795fec5-a7b4-46ca-a27c-ba3a46d9f8a7">
-    <name>ТипФайла</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип файла</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипыФайлов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b02ae9fe-aa88-4b37-890b-bd41d85e57b3">
-    <name>Текст</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+  <defaultListForm>Catalog.СтруктураСайта.Form.ФормаСписка</defaultListForm>
   <attributes uuid="d07e18a0-69b9-4387-8a2f-2df0c2e54627">
     <name>Хранилище</name>
     <synonym>
@@ -164,6 +134,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92695974-23f6-4175-aba2-591e6bf18e1a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

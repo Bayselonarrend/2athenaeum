@@ -78,6 +78,7 @@
   <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
+  <constants>Constant.ПапкаСайта</constants>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Произведения</catalogs>
@@ -117,7 +118,6 @@
   <enums>Enum.ТипыСообществ</enums>
   <enums>Enum.ВидыАвторов</enums>
   <enums>Enum.ПериодичностьУведомлений</enums>
-  <enums>Enum.ТипыФайлов</enums>
   <reports>Report.ОсновнаяСтатистика</reports>
   <reports>Report.ЗапасыКонтента</reports>
   <reports>Report.ОтчетПоФинансам</reports>

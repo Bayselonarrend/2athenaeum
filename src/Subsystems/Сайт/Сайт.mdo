@@ -16,4 +16,5 @@
   <content>Catalog.ПерсональныеНастройки</content>
   <content>DataProcessor.ОбновлениеКниг</content>
   <content>Catalog.СтруктураСайта</content>
+  <content>Constant.ПапкаСайта</content>
 </mdclass:Subsystem>

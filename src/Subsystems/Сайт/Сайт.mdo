@@ -15,4 +15,5 @@
   <content>Catalog.СтандартныеСтраницы</content>
   <content>Catalog.ПерсональныеНастройки</content>
   <content>DataProcessor.ОбновлениеКниг</content>
+  <content>Catalog.СтруктураСайта</content>
 </mdclass:Subsystem>

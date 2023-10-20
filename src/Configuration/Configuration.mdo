@@ -104,6 +104,7 @@
   <catalogs>Catalog.Сложнопост</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
   <catalogs>Catalog.ТекстыНапоминаний</catalogs>
+  <catalogs>Catalog.СтруктураСайта</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>
@@ -116,6 +117,7 @@
   <enums>Enum.ТипыСообществ</enums>
   <enums>Enum.ВидыАвторов</enums>
   <enums>Enum.ПериодичностьУведомлений</enums>
+  <enums>Enum.ТипыФайлов</enums>
   <reports>Report.ОсновнаяСтатистика</reports>
   <reports>Report.ЗапасыКонтента</reports>
   <reports>Report.ОтчетПоФинансам</reports>

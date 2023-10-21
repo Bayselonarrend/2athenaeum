@@ -79,6 +79,7 @@
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
   <constants>Constant.ПапкаСайта</constants>
+  <constants>Constant.РепозиторийСайта</constants>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Произведения</catalogs>
@@ -106,6 +107,7 @@
   <catalogs>Catalog.Тэги</catalogs>
   <catalogs>Catalog.ТекстыНапоминаний</catalogs>
   <catalogs>Catalog.СтруктураСайта</catalogs>
+  <catalogs>Catalog.КаталогиВысадки</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>

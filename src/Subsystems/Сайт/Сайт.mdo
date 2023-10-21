@@ -3,7 +3,7 @@
   <name>Сайт</name>
   <synonym>
     <key>ru</key>
-    <value>Сайт</value>
+    <value>Сайт и деплой</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -17,4 +17,6 @@
   <content>DataProcessor.ОбновлениеКниг</content>
   <content>Catalog.СтруктураСайта</content>
   <content>Constant.ПапкаСайта</content>
+  <content>Constant.РепозиторийСайта</content>
+  <content>Catalog.КаталогиВысадки</content>
 </mdclass:Subsystem>

@@ -220,7 +220,7 @@ td{
   width: 1100px;
   left: 0;
   right: 0;
-
+  z-index: 99;
   opacity: 0;
   animation: mess 6s;
 }
@@ -290,7 +290,8 @@ td{
   padding-left: 10px;
 }
 .authors{
-    margin-top:5vw
+    margin-top:5vw;
+    margin-bottom: 75px;
 }
 .nopadding{
     padding:0

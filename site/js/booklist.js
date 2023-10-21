@@ -4,6 +4,7 @@ import { getCookie }          from './xhttp.js';
 import { ping }               from './xhttp.js';
 import { generateLinks }      from './socials.js';
 import { setPreloaderEvent }  from './effects.js';
+import { showMessage }        from './effects.js';
 
 document.addEventListener("DOMContentLoaded", checkAuthBookList);
 
@@ -81,13 +82,20 @@ function makeBooksListFull(){
       vk.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault();       
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=vk').then(function(success){});};
+        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=vk').then(function(success){
+          if(success) {showMessage('Отправлено!', 'success')}
+          else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
+          });
+        };
       tg.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault(); 
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=tg').then(function(success){});};      
-  
-      
+        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=tg').then(function(success){         
+          if(success) {showMessage('Отправлено!', 'success')}
+          else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
+          });   
+      };
+     
    });
      
     setPreloaderEvent(); 

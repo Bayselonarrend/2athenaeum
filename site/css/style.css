@@ -82,6 +82,10 @@ a{
     color:#fff
 }
 
+caption{
+ color: silver; 
+}
+
 a:hover{
     color:silver
 }

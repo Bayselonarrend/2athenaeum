@@ -17,4 +17,6 @@
   <content>Catalog.Ссылки</content>
   <content>Catalog.Файлы</content>
   <content>DataProcessor.РазборТекстов</content>
+  <content>Constant.ЗаписыватьТесты</content>
+  <content>Catalog.АвтотестыСервисов</content>
 </mdclass:Subsystem>

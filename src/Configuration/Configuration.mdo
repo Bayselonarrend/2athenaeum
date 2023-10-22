@@ -69,6 +69,7 @@
   <commonModules>CommonModule.МетодыРаботыVK</commonModules>
   <commonModules>CommonModule.МетодыApiСайта</commonModules>
   <commonModules>CommonModule.МетодыБота</commonModules>
+  <commonModules>CommonModule.МетодыТестирования</commonModules>
   <httpServices>HTTPService.Bot</httpServices>
   <httpServices>HTTPService.Ping</httpServices>
   <httpServices>HTTPService.GetUsr</httpServices>
@@ -80,6 +81,7 @@
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
   <constants>Constant.ПапкаСайта</constants>
   <constants>Constant.РепозиторийСайта</constants>
+  <constants>Constant.ЗаписыватьТесты</constants>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.Произведения</catalogs>
@@ -108,6 +110,7 @@
   <catalogs>Catalog.ТекстыНапоминаний</catalogs>
   <catalogs>Catalog.СтруктураСайта</catalogs>
   <catalogs>Catalog.КаталогиВысадки</catalogs>
+  <catalogs>Catalog.АвтотестыСервисов</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>

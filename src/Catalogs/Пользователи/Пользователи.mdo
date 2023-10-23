@@ -44,6 +44,13 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="68693292-8029-480a-bf4d-006a75c2cbff">
+      <name>ЭтотПользователь</name>
+      <description>Этот пользователь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

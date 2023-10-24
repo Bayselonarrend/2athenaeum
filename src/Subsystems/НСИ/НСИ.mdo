@@ -13,10 +13,10 @@
   <content>DataProcessor.КонсольЗаданий_УФ</content>
   <content>Catalog.Пометки</content>
   <content>InformationRegister.ЖурналИсключений</content>
-  <content>InformationRegister.ОтслеживаниеПосещений</content>
   <content>Catalog.Ссылки</content>
   <content>Catalog.Файлы</content>
   <content>DataProcessor.РазборТекстов</content>
   <content>Constant.ЗаписыватьТесты</content>
   <content>Catalog.АвтотестыСервисов</content>
+  <content>InformationRegister.Логирование</content>
 </mdclass:Subsystem>

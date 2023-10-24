@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d613ab74-968e-4aa1-8f25-43ff8ba95ad9">
+  <producedTypes>
+    <refType typeId="ff425b72-48bd-471d-9610-859e1a0b0bb1" valueTypeId="479b7446-2da9-4868-b468-eb346b09331f"/>
+    <listType typeId="b947ff37-c0b1-44ca-bc3f-0e121a5c4215" valueTypeId="88c131b2-5cdd-4f28-95fc-8b14754cdaf4"/>
+    <managerType typeId="151d14bc-d54a-4d11-a813-206b76d434fc" valueTypeId="fcd9569b-0cbe-4ca7-89ee-ebaf27ad7e9b"/>
+  </producedTypes>
+  <name>ВидДанныхЛогирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид данных логирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fe44b897-5617-4c44-a907-4ba1e570ef3d">
+    <name>Входные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9fb315a-21f9-4a79-9a53-27c9d8eae9a2">
+    <name>Выходные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

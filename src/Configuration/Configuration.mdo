@@ -123,6 +123,7 @@
   <enums>Enum.ТипыСообществ</enums>
   <enums>Enum.ВидыАвторов</enums>
   <enums>Enum.ПериодичностьУведомлений</enums>
+  <enums>Enum.ВидДанныхЛогирования</enums>
   <reports>Report.ОсновнаяСтатистика</reports>
   <reports>Report.ЗапасыКонтента</reports>
   <reports>Report.ОтчетПоФинансам</reports>
@@ -135,12 +136,12 @@
   <informationRegisters>InformationRegister.АктивныеСеансы</informationRegisters>
   <informationRegisters>InformationRegister.ДневнойПрогресс</informationRegisters>
   <informationRegisters>InformationRegister.ЖурналИсключений</informationRegisters>
-  <informationRegisters>InformationRegister.ОтслеживаниеПосещений</informationRegisters>
   <informationRegisters>InformationRegister.Статистика</informationRegisters>
   <informationRegisters>InformationRegister.Диалоги</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеРасписания</informationRegisters>
   <informationRegisters>InformationRegister.ПубликацияСложнопостов</informationRegisters>
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
+  <informationRegisters>InformationRegister.Логирование</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
 </mdclass:Configuration>

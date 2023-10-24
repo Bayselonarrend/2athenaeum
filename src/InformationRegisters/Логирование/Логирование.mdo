@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1f71263-2277-4a6c-ad1c-5ea7da2f805e">
+  <producedTypes>
+    <selectionType typeId="131ff301-e3c0-4e63-bcc4-0b6d6e9de3b6" valueTypeId="fa96f097-e299-435e-8a54-a13e71775247"/>
+    <listType typeId="f4ce9afd-85a1-4b75-bba2-24a9b32cde00" valueTypeId="4fb8360d-a858-4584-84ec-abd5b2f0b962"/>
+    <managerType typeId="6607adf0-c393-4108-abae-519c6d356618" valueTypeId="3d93cd32-241d-4fea-afcc-0f427256dee2"/>
+    <recordSetType typeId="49fbd7ba-a4e4-44f5-a9a5-80e61b7a315b" valueTypeId="2bc57f69-6f4b-40bb-8da8-4b9bf6241031"/>
+    <recordKeyType typeId="a5a1a872-8238-4ef8-9666-01df8ee02264" valueTypeId="abc7bc2c-50a6-4c2e-a68d-ecc39677c710"/>
+    <recordType typeId="fbc08b02-b361-4681-acd0-68caea522276" valueTypeId="af93c56b-e126-4e20-a9b4-a313b66bc070"/>
+    <recordManagerType typeId="f9a9f2f0-e227-4044-bc1e-84a926cbf9a6" valueTypeId="001004bf-cdf1-4c8c-8332-bf486b22302c"/>
+  </producedTypes>
+  <name>Логирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование приема/отправки данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Логирование.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись лога</value>
+  </recordPresentation>
+  <resources uuid="56dd74c7-5708-4ea5-83cd-884b54744332">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="601bc065-cac2-4200-b351-7061234be4e5">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидДанныхЛогирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ed1662fd-6468-4b6a-9e20-a24f31906750">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="69c11feb-8614-4cfd-bb7e-9d98c0e17b6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

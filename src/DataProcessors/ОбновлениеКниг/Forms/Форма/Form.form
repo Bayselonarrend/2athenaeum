@@ -4,7 +4,7 @@
     <name>Группа1</name>
     <id>17</id>
     <items xsi:type="form:Table">
-      <name>СисокКниг</name>
+      <name>СписокКниг</name>
       <id>1</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -28,7 +28,7 @@
         </dataPath>
         <handlers>
           <event>OnChange</event>
-          <name>СисокКнигЗначениеПриИзменении</name>
+          <name>СписокКнигЗначениеПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>СисокКнигЗначениеРасширеннаяПодсказка</name>
@@ -70,7 +70,7 @@
         </extInfo>
       </items>
       <autoCommandBar>
-        <name>СисокКнигКоманднаяПанель</name>
+        <name>СписокКнигКоманднаяПанель</name>
         <id>3</id>
         <items xsi:type="form:Button">
           <name>СисокКнигАвторыКниг</name>
@@ -119,10 +119,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>СисокКнигСтрокаПоиска</name>
+        <name>СписокКнигСтрокаПоиска</name>
         <id>5</id>
         <extendedTooltip>
-          <name>СисокКнигСтрокаПоискаРасширеннаяПодсказка</name>
+          <name>СписокКнигСтрокаПоискаРасширеннаяПодсказка</name>
           <id>7</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -137,7 +137,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СисокКнигСтрокаПоискаКонтекстноеМеню</name>
+          <name>СписокКнигСтрокаПоискаКонтекстноеМеню</name>
           <id>6</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -146,7 +146,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СисокКнигСтрокаПоиска</source>
+        <source>СписокКнигСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -157,10 +157,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>СисокКнигСостояниеПросмотра</name>
+        <name>СписокКнигСостояниеПросмотра</name>
         <id>8</id>
         <extendedTooltip>
-          <name>СисокКнигСостояниеПросмотраРасширеннаяПодсказка</name>
+          <name>СписокКнигСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>10</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -175,7 +175,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СисокКнигСостояниеПросмотраКонтекстноеМеню</name>
+          <name>СписокКнигСостояниеПросмотраКонтекстноеМеню</name>
           <id>9</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -185,7 +185,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СисокКнигСостояниеПросмотра</source>
+        <source>СписокКнигСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -196,10 +196,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>СисокКнигУправлениеПоиском</name>
+        <name>СписокКнигУправлениеПоиском</name>
         <id>11</id>
         <extendedTooltip>
-          <name>СисокКнигУправлениеПоискомРасширеннаяПодсказка</name>
+          <name>СписокКнигУправлениеПоискомРасширеннаяПодсказка</name>
           <id>13</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -214,7 +214,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СисокКнигУправлениеПоискомКонтекстноеМеню</name>
+          <name>СписокКнигУправлениеПоискомКонтекстноеМеню</name>
           <id>12</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -224,13 +224,13 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СисокКнигУправлениеПоиском</source>
+        <source>СписокКнигУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>СисокКнигРасширеннаяПодсказка</name>
+        <name>СписокКнигРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -245,7 +245,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СисокКнигКонтекстноеМеню</name>
+        <name>СписокКнигКонтекстноеМеню</name>
         <id>2</id>
         <visible>true</visible>
         <enabled>true</enabled>

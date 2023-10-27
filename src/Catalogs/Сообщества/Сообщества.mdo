@@ -545,6 +545,46 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="aa610bc3-4a57-4d16-a4ef-939f53b9511e">
+    <name>ВК_bot_secret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bot Secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18f19759-13be-4547-bc1f-65c742accf14">
+    <name>ВК_bot_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bot ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="0e9b88d6-8c99-41b7-8ab2-1db949491625">
     <producedTypes>
       <objectType typeId="3c46e2cc-d206-432c-ab35-572e7a719ef1" valueTypeId="f2362c1e-fd92-4a41-b467-415188dbafbf"/>

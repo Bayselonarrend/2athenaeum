@@ -259,7 +259,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Примечание</segments>
+      <segments>Объект.Определитель</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПримечаниеРасширеннаяПодсказка</name>

@@ -47,6 +47,20 @@
         <value>000000003</value>
       </code>
     </items>
+    <items id="e72e6469-af49-4c66-b57b-e1345690729a">
+      <name>КнигаПоКодуВК</name>
+      <description>Книга по коду (ВК)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="232d294a-9274-4410-98d8-efa8abd55052">
+      <name>КнигаПоКодуТелеграм</name>
+      <description>Книга по коду (Телеграм)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
     <items id="c4c94cf3-b847-407f-b671-fa87b1d0d01a">
       <name>РегистрацияВК</name>
       <description>Регистрация (ВК)</description>

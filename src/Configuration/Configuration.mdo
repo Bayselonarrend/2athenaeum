@@ -147,5 +147,6 @@
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.Логирование</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеТестов</informationRegisters>
+  <informationRegisters>InformationRegister.СтраницыТекстов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
 </mdclass:Configuration>

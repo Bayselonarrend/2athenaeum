@@ -150,21 +150,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2ac15538-18fb-419c-bc60-4d1d09243aec">
-    <name>ТекстМассив</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст (Массив)</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="dbb0ed4f-0422-437d-8e8e-c4d27b5d6354">
     <name>КартинкаДвоичные</name>
     <synonym>

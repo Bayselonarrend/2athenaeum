@@ -41,27 +41,11 @@
       <value></value>
     </fillValue>
   </resources>
-  <dimensions uuid="772a9fca-3acd-4e54-b4ac-e01f67d93ca0">
-    <name>Отправитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отправитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Пользователи</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="f6a6d322-f786-43a8-9524-f0276f450b5c">
-    <name>Получатель</name>
+    <name>Пользователь</name>
     <synonym>
       <key>ru</key>
-      <value>Получатель</value>
+      <value>Пользователь</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>

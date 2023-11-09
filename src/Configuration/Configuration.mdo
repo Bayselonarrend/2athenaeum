@@ -114,6 +114,7 @@
   <catalogs>Catalog.КаталогиВысадки</catalogs>
   <catalogs>Catalog.АвтотестыСервисов</catalogs>
   <catalogs>Catalog.ОпределителиТестов</catalogs>
+  <catalogs>Catalog.ТекстыПроизведений</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>
@@ -146,6 +147,5 @@
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.Логирование</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеТестов</informationRegisters>
-  <informationRegisters>InformationRegister.СтраницыТекстов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
 </mdclass:Configuration>

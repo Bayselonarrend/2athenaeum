@@ -132,7 +132,6 @@
   <reports>Report.ОтчетПоФинансам</reports>
   <reports>Report.ОтчетПоСообществу</reports>
   <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
-  <dataProcessors>DataProcessor.РазборТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ОбновлениеКниг</dataProcessors>
   <informationRegisters>InformationRegister.ПорядокПостов</informationRegisters>
   <informationRegisters>InformationRegister.ПотоковоеЧтение</informationRegisters>

@@ -12,6 +12,5 @@
   </picture>
   <content>InformationRegister.ПотоковоеЧтение</content>
   <content>InformationRegister.ДневнойПрогресс</content>
-  <content>InformationRegister.Диалоги</content>
   <content>Catalog.ТекстыНапоминаний</content>
 </mdclass:Subsystem>

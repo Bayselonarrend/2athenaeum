@@ -115,6 +115,8 @@
   <catalogs>Catalog.АвтотестыСервисов</catalogs>
   <catalogs>Catalog.ОпределителиТестов</catalogs>
   <catalogs>Catalog.ТекстыПроизведений</catalogs>
+  <catalogs>Catalog.Аудиозаписи</catalogs>
+  <catalogs>Catalog.Источники</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>

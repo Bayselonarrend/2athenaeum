@@ -38,6 +38,7 @@
       <value>Содержание</value>
     </synonym>
     <type>
+      <types>CatalogRef.Аудиозаписи</types>
       <types>CatalogRef.События</types>
       <types>CatalogRef.Цитаты</types>
       <types>CatalogRef.Термины</types>

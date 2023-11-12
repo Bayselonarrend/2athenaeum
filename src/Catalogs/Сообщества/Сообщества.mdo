@@ -585,6 +585,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="169464ad-f519-4ad8-b60f-bdcaf2512c3a">
+    <name>ТГ_КаналАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал-архив (Telegram)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="0e9b88d6-8c99-41b7-8ab2-1db949491625">
     <producedTypes>
       <objectType typeId="3c46e2cc-d206-432c-ab35-572e7a719ef1" valueTypeId="f2362c1e-fd92-4a41-b467-415188dbafbf"/>

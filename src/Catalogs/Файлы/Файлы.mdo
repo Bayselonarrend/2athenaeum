@@ -129,6 +129,13 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="97d9b8cc-2a0f-4989-b60f-2f44a0f644ac">
+      <name>Лекция</name>
+      <description>Лекция</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
     <items id="92957e68-73ec-469d-b87a-4b83a02a7976">
       <name>ОпросАтеней</name>
       <description>Опрос Атеней</description>

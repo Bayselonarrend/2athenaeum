@@ -40,4 +40,11 @@
       <value>Событие</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="00a2470d-6572-45b3-bdf6-126bdac72716">
+    <name>Лекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекция</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

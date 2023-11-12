@@ -33,4 +33,11 @@
       <value>II</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="50fc77dc-c997-45ae-96e9-213ee7240a67">
+    <name>III</name>
+    <synonym>
+      <key>ru</key>
+      <value>III</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

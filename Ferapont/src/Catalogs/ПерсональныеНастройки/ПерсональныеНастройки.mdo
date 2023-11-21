@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f69b84-e95e-4811-abb6-1246a2881904">
+  <producedTypes>
+    <objectType typeId="e0541fbd-2a38-4a79-84f8-af4b6f24e487" valueTypeId="87c38f20-4b7a-40bc-a60c-7b2c3e199d56"/>
+    <refType typeId="13c024d6-f93c-4f33-adbb-6e48356ae6ab" valueTypeId="b6228f4e-83b0-4e19-b6e2-b5349d4471fb"/>
+    <selectionType typeId="2e8c1563-f517-46f0-9e8d-2deaeceb8068" valueTypeId="1539ca3c-7347-4de5-8d60-6168d56a0a0d"/>
+    <listType typeId="fb6d265f-9420-489f-9828-d14538675a90" valueTypeId="af0137db-28b9-40f1-ae5c-0bfec6a884a7"/>
+    <managerType typeId="40831c61-d94f-4080-863e-905cba003595" valueTypeId="6bd8c2ec-eaf1-42bb-892a-05a939e24237"/>
+  </producedTypes>
+  <name>ПерсональныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПерсональныеНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПерсональныеНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Набор настроек</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="22c7ce60-efdd-45f8-99e4-f68e921649c5">
+    <name>ДневнаяЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная цель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0792c02-27fd-49cc-820a-960e9d6e6b18">
+    <name>Оповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодичностьУведомлений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

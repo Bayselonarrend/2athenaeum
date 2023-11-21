@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd27fd85-e1c2-4f7e-8342-7e54d4653786">
+  <producedTypes>
+    <refType typeId="456326b7-35fd-4559-a666-a4b706cb2696" valueTypeId="3b42c795-1378-4eac-b697-0935cabe4007"/>
+    <listType typeId="0ffd376e-4ee0-446b-b9a5-eb848ca0e3ea" valueTypeId="9b703bcd-8ed3-46c7-a7ba-4dc4efba56c2"/>
+    <managerType typeId="85587aa3-dc39-4499-a842-1ff3ab96a241" valueTypeId="07b5aaeb-959c-4726-9610-205e76469b39"/>
+  </producedTypes>
+  <name>ПериодичностьУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность уведомлений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c52ed53-7ec2-4ca2-8a07-847abc7b9f30">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c263dd8-8966-4cb4-8937-4442ee052794">
+    <name>Ежедневно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежедневно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a185be3a-43f7-4802-8fa1-eeea15ccb9a2">
+    <name>Еженедельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

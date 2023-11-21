@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a2850f8-dd74-4eaa-ad63-8c7639ef2126">
+  <name>МетодыСтатикиСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы статики сайта</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

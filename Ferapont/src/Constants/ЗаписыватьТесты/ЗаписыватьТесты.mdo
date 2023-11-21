@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7122d49-7cff-4f56-8645-7963b18fedd3">
+  <producedTypes>
+    <managerType typeId="bad530ab-f378-47de-8fc1-d02536b36fe4" valueTypeId="62daf19f-54f2-4b08-94fc-1cdd077a0554"/>
+    <valueManagerType typeId="13e5f12a-e454-4e7e-babd-a47a68842320" valueTypeId="2a610def-8880-4960-ab7d-7a5893e47de5"/>
+    <valueKeyType typeId="3b1dad0c-0126-48be-b66b-bcb7c4fd0b9c" valueTypeId="f3dc7ea8-4b49-46ed-b4ff-d6ec1b4f2033"/>
+  </producedTypes>
+  <name>ЗаписыватьТесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записывать тесты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

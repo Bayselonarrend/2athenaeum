@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af19cabb-7e5f-4f5c-bbaf-141b7e4536d4">
+  <producedTypes>
+    <selectionType typeId="107e567e-246e-41a2-9b78-e248d37bfe2e" valueTypeId="22fd1744-f637-4856-940a-8d96463e6b3a"/>
+    <listType typeId="5e9688cb-c287-4b5b-b905-67c2920ea668" valueTypeId="3f6304ce-f15c-4ca0-aacb-1c8c6820f821"/>
+    <managerType typeId="fd50abe3-7d85-446a-9c10-a4f9a13415b0" valueTypeId="b4384b9d-f0c0-4a1d-87d2-174c0c954fe4"/>
+    <recordSetType typeId="69517e5c-551f-4d3b-b838-ad56cde7a602" valueTypeId="73f6e320-ed28-4748-b8bc-c5effdeaecb5"/>
+    <recordKeyType typeId="601e00a8-8b2d-4111-b92e-a384d46b67c0" valueTypeId="10f9b6b3-f86b-4917-880b-980c6b0ccc13"/>
+    <recordType typeId="6a22caa7-9dc4-4496-918f-b1f03be88963" valueTypeId="3e9ee907-e5fe-4145-b337-4d7b44d632dc"/>
+    <recordManagerType typeId="da8f6c54-1a07-4755-a777-e449137525de" valueTypeId="13f56968-ff20-4542-bced-b9685fd0617f"/>
+  </producedTypes>
+  <name>ДневнойПрогресс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дневной прогресс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дневная запись</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Дневные записи</value>
+  </listPresentation>
+  <resources uuid="b5254b63-b4ac-4c85-b4c9-4525578bd31e">
+    <name>КоличествоСлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество слов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fec764ff-1648-46a2-bf0c-cb9541eb3da8">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b51b92d-1a62-4393-afec-dd196ae88758">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d9dacc4-f3c3-4488-8cbe-860eb8fd73d2">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af28747-610f-49a4-bcae-2c659d4a18ff">
+  <producedTypes>
+    <objectType typeId="986c7d04-aabd-4e8a-b84a-3b7d38989598" valueTypeId="49696a80-0019-4717-8415-6d71fd8ace59"/>
+    <refType typeId="340b8db3-9361-4450-ba6f-d8cff120fadd" valueTypeId="efd827dc-777b-43eb-8707-343ca2747336"/>
+    <selectionType typeId="fccfa62d-0773-4731-95f5-d46c9ce9a393" valueTypeId="d893a2a2-8ccd-4b2a-8cdd-7f24f9dcbb7a"/>
+    <listType typeId="21a8ef9d-f966-4376-aa1b-1c7d7f33697e" valueTypeId="522e34cf-1e22-4a1e-b286-6ba50b585611"/>
+    <managerType typeId="ceeeea6e-8352-4f48-a915-3a23174a383b" valueTypeId="fdfe874c-cdfa-49d2-8e0e-309d8d1ce1e6"/>
+  </producedTypes>
+  <name>ПрочиеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрочиеРасходы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПрочиеРасходы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Документ расхода</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="867d4265-3170-4841-8d3b-0147e270ca9a">
+    <name>СтандартнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7548a626-5fd5-4308-b2c4-10a9f779c606">
+    <name>СтандартнаяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

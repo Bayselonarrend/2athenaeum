@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07764bbf-c437-4f1f-b149-1eaf2aca3d7e">
+  <producedTypes>
+    <selectionType typeId="133a6819-6a4e-4ce1-a274-e98424dc419c" valueTypeId="6ec77334-c383-42df-aa89-2b2a5a72ebe0"/>
+    <listType typeId="e8e74523-3f7f-4bd0-ae63-b934954462ad" valueTypeId="d839d3f2-279d-4c43-9a44-6240f6a1b15c"/>
+    <managerType typeId="9b7ed170-f1d0-47f2-aef2-0043cf799e11" valueTypeId="5fe0af1e-937e-4b31-a513-9a43c2d75df4"/>
+    <recordSetType typeId="2d49b685-f658-44f6-886a-3816dd3b1bc8" valueTypeId="f833a9b7-274b-4bd0-a530-13df1759f613"/>
+    <recordKeyType typeId="db1afbe6-939a-44b5-988f-feb0f4c71960" valueTypeId="b0e7b8e7-3d3d-482e-b9d4-79a558068be2"/>
+    <recordType typeId="9c6fb6b0-242b-447a-b060-5bdf4ded7000" valueTypeId="b4036356-a479-4934-9467-bfd7dc1117c8"/>
+    <recordManagerType typeId="46eff248-213e-4e3a-93f5-bed05d9365c9" valueTypeId="03fb1075-6df7-432c-80ee-44ff3beb321f"/>
+  </producedTypes>
+  <name>ВыполнениеРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение расписания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВыполнениеРасписания.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Выполнение расписания</value>
+  </recordPresentation>
+  <resources uuid="29270e23-beb6-455d-a4f2-f4c5a5886b55">
+    <name>ПоследнееВыполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее выполнение</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8d80d293-5084-4cbd-bf49-7144d9b33871">
+    <name>Пункт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Расписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7a9afa4b-e7e4-42f4-bb3e-c74a1488bf1d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

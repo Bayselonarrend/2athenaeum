@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="259c5dc8-0ad4-4c2a-a605-f163e17647bb">
+  <producedTypes>
+    <objectType typeId="41f208f0-b093-418b-9a2c-ea7e54039705" valueTypeId="5c57d9d9-85e4-49b3-9c00-6c0b8bc354d8"/>
+    <refType typeId="ec8fb214-e441-48af-a209-8ce83c030a5d" valueTypeId="786cd794-099f-4067-9ebe-abaa338d25de"/>
+    <selectionType typeId="3817b893-0c41-4273-8946-57b348679853" valueTypeId="2d75063b-b1ea-4138-bda1-7b09bd0cca81"/>
+    <listType typeId="3425ab78-613f-4949-92a4-1cf9da735618" valueTypeId="a3db539a-221b-406a-a2cf-b4f72838a558"/>
+    <managerType typeId="5ce694e3-048a-456a-8584-e1935dd9d1c2" valueTypeId="eb3e0b47-c8e3-4cee-aca0-2323541b3227"/>
+  </producedTypes>
+  <name>ОпределителиТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определители тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОпределителиТестов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОпределителиТестов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Определитель</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="265575ce-f9b4-4c2a-93e6-50f02ef16dfe">
+      <name>ВходВК</name>
+      <description>Вход (ВК)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="e6d57823-3ba9-43da-ba0d-f895397a599c">
+      <name>ВходТелеграм</name>
+      <description>Вход (Телеграм)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="e72e6469-af49-4c66-b57b-e1345690729a">
+      <name>КнигаПоКодуВК</name>
+      <description>Книга по коду (ВК)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="232d294a-9274-4410-98d8-efa8abd55052">
+      <name>КнигаПоКодуТелеграм</name>
+      <description>Книга по коду (Телеграм)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="c4c94cf3-b847-407f-b671-fa87b1d0d01a">
+      <name>РегистрацияВК</name>
+      <description>Регистрация (ВК)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="dd43e181-cd94-4a6a-9779-e905e9629a10">
+      <name>РегистрацияТелеграм</name>
+      <description>Регистрация (Телеграм)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ed7cc27b-55d2-4c70-9e0c-92cbea99ea00">
+      <name>РегистрацияКнигаВК</name>
+      <description>Регистрация через книгу (ВК)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="7afe7306-ae8b-4681-90de-d1cb8662b0f0">
+      <name>РегистрацияКнигаТелеграм</name>
+      <description>Регистрация через книгу (Телеграм)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

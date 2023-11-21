@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ef3bdac-9fb2-4d4b-a972-aeae7eafeb64">
+  <producedTypes>
+    <objectType typeId="06c9ad79-441a-4c9a-8d28-8b028a68423a" valueTypeId="8cbe347b-ce80-43df-82d8-96517ee7a67f"/>
+    <refType typeId="96322323-7017-428c-b329-4c100ebfe213" valueTypeId="056f42b8-55d0-4ed5-9a17-e8f9ed756162"/>
+    <selectionType typeId="f48a5b0b-c32f-410f-b276-9daac5c554e0" valueTypeId="a93bc1e0-67e4-48df-8234-5ee2a0363b90"/>
+    <listType typeId="1b35be45-5468-4cc6-9029-ce82a4fd2e5c" valueTypeId="abd7fd76-be21-4824-8c41-84042b7bbaff"/>
+    <managerType typeId="19aeacf8-0246-48d3-8fae-6ee18e7da4df" valueTypeId="43a9f8c4-416f-4074-8873-79d5a1068571"/>
+  </producedTypes>
+  <name>Пост</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пост</value>
+  </synonym>
+  <comment>Документ отдельного поста </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Пост.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пост</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Пост.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Пост.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2cc15f28-9653-4413-bdd1-dfa05cb269c0">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аудиозаписи</types>
+      <types>CatalogRef.События</types>
+      <types>CatalogRef.Цитаты</types>
+      <types>CatalogRef.Термины</types>
+      <types>CatalogRef.Произведения</types>
+      <types>CatalogRef.Колонки</types>
+      <types>CatalogRef.Сообщества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c3f6857-99fc-4767-a57f-866e2f2aa56f">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b0077c5-dbaf-417f-b011-642b5145ceb5">
+    <name>КартинкаДвоичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка двоичные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f45c2ba5-3b95-45a1-98a8-5d9ad4ec7ff6">
+    <name>Сообщество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сообщества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0de88a4d-7162-4d31-8805-62bc79a98ac1">
+    <name>ВидКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид картинки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыКартинок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df244850-320c-4c33-ae0e-7c8570274a78">
+    <name>ВК_НомерПоста</name>
+    <synonym>
+      <key>ru</key>
+      <value>VK</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c400b86-aa17-4592-813e-a8f722574c63">
+    <name>ТГ_НомерПоста</name>
+    <synonym>
+      <key>ru</key>
+      <value>TG</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f593d60-8677-4334-8425-021ece048480">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровниПостов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d50664e1-5952-4541-9389-fef9b0db4981">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbb7ace1-337f-4e7e-9f61-6e21ed2a6355">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="18fb8bf6-9713-4cc3-8774-21273759719b">
+    <producedTypes>
+      <objectType typeId="642005a4-034f-4724-901c-e053d96360e8" valueTypeId="cec943f2-0010-4c47-9f19-eab48f3e5152"/>
+      <rowType typeId="0a069e0d-d86d-453a-9b6b-8085cc98635b" valueTypeId="7d794ebc-73ad-4d5f-b4e0-de427a555e75"/>
+    </producedTypes>
+    <name>Тэги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тэги</value>
+    </synonym>
+    <attributes uuid="5be387d0-163e-43e1-b9c2-396cf1ff496e">
+      <name>Тэг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тэг</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Тэги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

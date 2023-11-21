@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="362a6bcf-c9dd-414d-8a5a-fa82ae4ee0e4">
+  <producedTypes>
+    <objectType typeId="16a21195-2df5-4fc8-863b-ca8bc6cd3305" valueTypeId="517273f9-4f47-4e6f-80c7-cbda330b0538"/>
+    <refType typeId="de6bfe24-c4b7-4a80-a694-831dc3edaaa8" valueTypeId="971001d1-5acd-40da-8ffc-ff768c217927"/>
+    <selectionType typeId="58694aee-a571-42e8-88b0-e620199e2258" valueTypeId="afd6e3b6-8077-4584-a1bd-d4fba0064215"/>
+    <listType typeId="c8827581-74bb-4700-87ba-02815d038e10" valueTypeId="3b1a1b74-f9b8-4baf-94a7-c5645732aea0"/>
+    <managerType typeId="48a694f2-5ab5-472d-971a-f4985635b0a5" valueTypeId="c6c72314-99f5-4d2c-a122-814f46fd0858"/>
+  </producedTypes>
+  <name>КатегорииРекламы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории рекламы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииРекламы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииРекламы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.КатегорииРекламы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="40acd860-93eb-4d36-b576-2a3b974db56c">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ec727c0e-d07c-4394-b8a4-9ae50550a822">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

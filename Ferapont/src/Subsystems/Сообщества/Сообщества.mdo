@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed774f82-0352-4072-b5a6-054ca8ab3f57">
+  <name>Сообщества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщества</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Сообщества</picture>
+  </picture>
+  <content>Catalog.Сообщества</content>
+  <content>Catalog.Сайты</content>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae9a5db2-aaf4-4dfb-b24b-a181a9b7bd43">
+  <name>МетодыРаботыVK</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы работы VK</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

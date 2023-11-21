@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="493e398c-9892-4118-b6f2-61c9f8ed402e">
+  <producedTypes>
+    <refType typeId="a889bb39-31f6-448c-a519-c75c817e0c8b" valueTypeId="69dac2a0-ce78-4e05-a3a4-4cded535e020"/>
+    <listType typeId="43fd95bc-76d0-4c08-b607-54dcc673fbb9" valueTypeId="c2609e8b-d375-45be-ba3e-cbb2127bf588"/>
+    <managerType typeId="c9f26f83-5530-4867-95d5-fc41ea80027c" valueTypeId="2a36fa3a-822a-4211-96c4-0a45398bb276"/>
+  </producedTypes>
+  <name>ДниНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1681541b-0c8a-42aa-b179-d5497e44dfdc">
+    <name>Пн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf691bdd-7e26-4a12-a5f8-76727565fded">
+    <name>Вт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fea327e7-5138-40b9-b1d4-e4f407d6950e">
+    <name>Ср</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ср</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2ce2131-8069-4a82-9d17-a13812bf5d14">
+    <name>Чт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="308a38b1-5e65-4ddd-844d-4b5e6163aafd">
+    <name>Пт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e27c918-4077-43b8-97d8-63dbbd79352e">
+    <name>Сб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="078d5cde-d4e7-4916-a99c-4628dfe039c8">
+    <name>Вс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

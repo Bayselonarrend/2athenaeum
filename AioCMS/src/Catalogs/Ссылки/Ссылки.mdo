@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="996e5fca-762b-4a7d-9d7c-a66de3073439">
+  <producedTypes>
+    <objectType typeId="01ba1c68-e5df-4d98-aaf6-eef585630cb3" valueTypeId="463a736a-ea8c-4949-9b96-515707a72a4a"/>
+    <refType typeId="2e418001-fa9c-4236-9184-8b5954a5e7fe" valueTypeId="2e715df5-c2cc-4df6-a3e2-a49e58a7c0b2"/>
+    <selectionType typeId="41d39ecb-54d9-4c95-9f4f-8b9d0a25653f" valueTypeId="3adeae2f-d910-4614-bd9f-2f3340c4895d"/>
+    <listType typeId="4f5ff82e-2065-4604-8bf3-9ed88ddb6526" valueTypeId="8ff9b857-21aa-4477-96ff-bf04554484b4"/>
+    <managerType typeId="8c12a2af-8b60-44df-bc5a-98c31bd82d9b" valueTypeId="11eba32c-eb25-43eb-8b28-10c2312dc6a2"/>
+  </producedTypes>
+  <name>Ссылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ссылки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ссылки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ссылка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="18c37b73-20ee-45c5-a1b8-823159459c79">
+      <name>Библиотека</name>
+      <description>Библиотека</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4efb0208-1732-4207-8db8-88d825bfa69c">
+    <name>Оригинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3de8cab4-f151-4151-af91-22ae8ba63629">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

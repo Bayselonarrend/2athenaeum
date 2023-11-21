@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69199afd-a58a-4ecd-b33e-84d8ed3cb6fd">
+  <producedTypes>
+    <objectType typeId="bf18fc53-d5e5-4969-b792-cd1dc3d2c220" valueTypeId="343a0e63-261c-4dc9-a078-33c82246dbe2"/>
+    <refType typeId="194ee5a6-6db4-4c0e-b25e-8a5761856329" valueTypeId="0d41bf06-3d2d-448d-a624-eb12cd56cdaf"/>
+    <selectionType typeId="6668aa22-f7df-40c8-847a-55006e807d31" valueTypeId="a2371cc1-c81e-4f33-918f-dd941c45c683"/>
+    <listType typeId="e722c7df-b092-4fcf-99e9-dcd3fe3d80b5" valueTypeId="fd90d67f-2a62-47f6-8384-c331bdab5e32"/>
+    <managerType typeId="1b2b0727-0335-41f8-98e1-f5aaee64e9c1" valueTypeId="f085eb53-a89d-4582-8407-3cbfa372890b"/>
+  </producedTypes>
+  <name>Источники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Источники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Источники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Источник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ddcb5deb-a33d-413c-9ba5-a2485135a1f5">
+    <name>Хэштэг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэштег</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

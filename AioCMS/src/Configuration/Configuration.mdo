@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ae54d3-151d-4782-8b0c-5842444d81c7">
+  <name>AioniotisCMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Aioniotis CMS</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="440f70b9-00a0-4744-9af8-64b247b5cc4c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b7065c3a-17fa-442b-80de-7f75c79a1e47"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6c4d829b-13b6-42ba-a2e9-b9963a17e94a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="40e4fc3a-2d17-4f66-8c7c-af322fbc88e1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e0eb0005-2f2b-4f52-a817-63d1d7352536"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7321ef79-f07d-42a4-b6ab-f73c49bb1f2a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="75673805-d95c-4cb9-bfbe-e9672e9728c2"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultStyle>Style.Главный</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="ae9ea5cf-5e41-4480-a16a-ce97af90e5fb">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Контент</subsystems>
+  <subsystems>Subsystem.БазаДанных</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Сообщества</subsystems>
+  <subsystems>Subsystem.Реклама</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <styles>Style.Главный</styles>
+  <commonPictures>CommonPicture.Контент</commonPictures>
+  <commonPictures>CommonPicture.БД</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.Лого</commonPictures>
+  <commonPictures>CommonPicture.Сообщества</commonPictures>
+  <commonPictures>CommonPicture.Реклама</commonPictures>
+  <commonPictures>CommonPicture.Финансы</commonPictures>
+  <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
+  <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
+  <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
+  <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>
+  <commonModules>CommonModule.МетодыРаботыHttp</commonModules>
+  <commonModules>CommonModule.МетодыРаботыTelegram</commonModules>
+  <commonModules>CommonModule.МетодыРаботыVK</commonModules>
+  <scheduledJobs>ScheduledJob.ПолучитьСтатистику</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
+  <catalogs>Catalog.Люди</catalogs>
+  <catalogs>Catalog.Страны</catalogs>
+  <catalogs>Catalog.Произведения</catalogs>
+  <catalogs>Catalog.Цитаты</catalogs>
+  <catalogs>Catalog.Колонки</catalogs>
+  <catalogs>Catalog.Пометки</catalogs>
+  <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.Ссылки</catalogs>
+  <catalogs>Catalog.Лонгриды</catalogs>
+  <catalogs>Catalog.Сообщества</catalogs>
+  <catalogs>Catalog.РегулярныеПосты</catalogs>
+  <catalogs>Catalog.События</catalogs>
+  <catalogs>Catalog.РекламныеКабинеты</catalogs>
+  <catalogs>Catalog.КатегорииРекламы</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ПрочиеРасходы</catalogs>
+  <catalogs>Catalog.Термины</catalogs>
+  <catalogs>Catalog.Расписание</catalogs>
+  <catalogs>Catalog.ВидыОбработкиИзображения</catalogs>
+  <catalogs>Catalog.Сложнопост</catalogs>
+  <catalogs>Catalog.Тэги</catalogs>
+  <catalogs>Catalog.Аудиозаписи</catalogs>
+  <catalogs>Catalog.Источники</catalogs>
+  <documents>Document.Пост</documents>
+  <documents>Document.ПополнениеКабинета</documents>
+  <documents>Document.ЗатратыНаПрочиеРасходы</documents>
+  <documentJournals>DocumentJournal.ФинансовыеОперации</documentJournals>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.СоцСети</enums>
+  <enums>Enum.ВидыКартинок</enums>
+  <enums>Enum.УровниПостов</enums>
+  <enums>Enum.СтатусыСообществ</enums>
+  <enums>Enum.ТипыСообществ</enums>
+  <enums>Enum.ВидыАвторов</enums>
+  <enums>Enum.ВидДанныхЛогирования</enums>
+  <reports>Report.ОсновнаяСтатистика</reports>
+  <reports>Report.ЗапасыКонтента</reports>
+  <reports>Report.ОтчетПоФинансам</reports>
+  <reports>Report.ОтчетПоСообществу</reports>
+  <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
+  <informationRegisters>InformationRegister.ПорядокПостов</informationRegisters>
+  <informationRegisters>InformationRegister.ЖурналИсключений</informationRegisters>
+  <informationRegisters>InformationRegister.Статистика</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ВыполнениеРасписания</informationRegisters>
+  <informationRegisters>InformationRegister.ПубликацияСложнопостов</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
+  <informationRegisters>InformationRegister.Логирование</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
+</mdclass:Configuration>

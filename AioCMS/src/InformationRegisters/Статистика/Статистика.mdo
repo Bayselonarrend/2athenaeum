@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81e2a4c9-a048-46fe-9328-8d464e423518">
+  <producedTypes>
+    <selectionType typeId="beec84b0-e377-423a-b2b2-90bbaae619b3" valueTypeId="9db0201f-e85d-44fc-96aa-27eabf466a96"/>
+    <listType typeId="b2aa15ba-d480-41d3-8280-53b97f8d2469" valueTypeId="17379ceb-b1df-4978-aa02-86ac3ab3217e"/>
+    <managerType typeId="c91bdf91-a31b-40ab-9d90-662831479495" valueTypeId="30181c12-6c33-4748-b933-f40a7eb42cfc"/>
+    <recordSetType typeId="6b68b954-fcc3-452f-bf08-783e359c4d99" valueTypeId="996642c2-ba79-43fe-b2ad-aff6cbbe41ed"/>
+    <recordKeyType typeId="098688b5-f2df-4f72-a8f3-99887359cff0" valueTypeId="eaf37501-bd7a-4109-97cc-9d010581424e"/>
+    <recordType typeId="dd027578-ff01-4f2a-8c5d-25fa1597c3b9" valueTypeId="15d96800-dd4a-4514-921c-6f8d998e6b26"/>
+    <recordManagerType typeId="0f3cac5b-f114-4c54-8a54-118a08c9235b" valueTypeId="8d0f7cb9-263d-4191-82f7-96b62bc6c8e5"/>
+  </producedTypes>
+  <name>Статистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Статистика.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Элемент статистики</value>
+  </recordPresentation>
+  <resources uuid="6be14a6b-067a-4313-ad3a-8911ca65b268">
+    <name>Охват</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охват</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ede3fbca-d59b-4762-9f0c-9dc9d7d3a733">
+    <name>Посетителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посетителей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="08d8e8d9-dcbb-4d3a-9dc2-395bc2dbceaa">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e1b4711-d31c-408c-aac6-1a9aa7dac30b">
+    <name>Репосты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Репосты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cf80f9fe-6cf5-4455-b0f2-7445f91331c0">
+    <name>Скрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6ee23c2-b2d5-499d-acdf-ddb663372233">
+    <name>Лайки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лайки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e178eed-1202-48d5-b6eb-a781432231fb">
+    <name>Отписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отписки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a960f27-01e2-4a42-87ec-ef3709fc31c9">
+    <name>ОхватПодписчиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охват подписчиков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5575eef1-1e6b-4813-bc8b-f8393d359d20">
+    <name>Просмотров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ac5e41e7-5555-4f05-8df1-5d6d7881025b">
+    <name>Подписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dae9e006-48e7-4ae1-b630-b955e4e354e4">
+    <name>Сообщество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сообщества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="63aa8394-b3e1-4a59-af84-40aa2907b9b2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

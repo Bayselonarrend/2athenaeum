@@ -2,9 +2,6 @@
 
 # Two-Digit Athenaeum
 
-[![Статус порога качества](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Aioniotis&metric=alert_status)](https://api.athenaeum.digital/Sonar/dashboard?id=Aioniotis)
-[![Строки кода](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Aioniotis&metric=ncloc)](https://api.athenaeum.digital/Sonar/dashboard?id=Aioniotis)
-
 *Two-Digit Athenaeum* - это облачная онлайн библиотека, расположенная по адресу https://athenaeum.digital. Книги в ней распространяются посредством отправки ботом сообщений в ВК и Telegram. Она состоит из:
 
 1. Сайта (html/css + js (ajax))
@@ -29,6 +26,9 @@
 Как уже было упомянуто ранее, проект состоит из 2-х баз
 
 ### Aioniotis CMS - проект управления контентом для группы ВК и канала Telegram
+
+[![Статус порога качества](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=AioniotisCMS&metric=alert_status)](https://api.athenaeum.digital/Sonar/dashboard?id=AioniotisCMS)
+[![Строки кода](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=AioniotisCMS&metric=ncloc)](https://api.athenaeum.digital/Sonar/dashboard?id=AioniotisCMS)
 
 Данная база отвечает за медийную часть проекта. Основной целью было создать систему управления контентом, которая могла бы минимизировать мое участие в ведении группы. Весь реализованный функционал нацелен на автоматизацию всего, что можно автоматизировать в жизни админа и криейтера: создание постов из сырых данных, очередь и планирование публикаций во времени, регулярные посты (вроде дней рождений писателей, повторяющихся каждый год), создание постов на основе генератора случайных чисел (как, например, опросы о любимом авторе по нескольким случайным авторам из справочника) и пр.
 
@@ -72,6 +72,9 @@ ___
 ___ 
 
 ### Ferapont - интерактивная часть Two-Digit Athenaeum: бот и сайт
+
+[![Статус порога качества](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Ferapont&metric=alert_status)](https://api.athenaeum.digital/Sonar/dashboard?id=Ferapont)
+[![Строки кода](https://api.athenaeum.digital/Sonar/api/project_badges/measure?project=Ferapont&metric=ncloc)](https://api.athenaeum.digital/Sonar/dashboard?id=Ferapont)
 
 Ферапонт - имя телеграм бота, рассылающего книги из библиотеки, однако помимо бота в этот проект еще вошли методы для работы сайта. Для уменьшения нагрузки на сервер (1С все-таки) была выбрана следующая схема веб-приложения
 - Сам сайт непосредственно располагается на neocities (это такой сервис, позволяющий публиковать сатические веб-сайты. Нечто вроде GitHub Pages). Есть несколько статических страниц и ajax скрипты

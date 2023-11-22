@@ -11,14 +11,7 @@
     <picture>CommonPicture.Контент</picture>
   </picture>
   <content>Document.Пост</content>
-  <content>InformationRegister.ПорядокПостов</content>
-  <content>Catalog.Файлы</content>
-  <content>InformationRegister.Статистика</content>
   <content>Catalog.РегулярныеПосты</content>
-  <content>Catalog.Расписание</content>
-  <content>InformationRegister.ВыполнениеРасписания</content>
   <content>Catalog.Сложнопост</content>
-  <content>InformationRegister.ПубликацияСложнопостов</content>
   <content>Catalog.Тэги</content>
-  <content>InformationRegister.СтатистикаЗаписей</content>
 </mdclass:Subsystem>

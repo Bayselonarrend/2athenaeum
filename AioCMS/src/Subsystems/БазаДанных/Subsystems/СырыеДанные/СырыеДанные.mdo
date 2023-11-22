@@ -13,10 +13,8 @@
   <content>Catalog.Цитаты</content>
   <content>Catalog.Колонки</content>
   <content>Catalog.Лонгриды</content>
-  <content>Catalog.РегулярныеПосты</content>
   <content>Catalog.События</content>
   <content>Catalog.Термины</content>
-  <content>Catalog.Сложнопост</content>
   <content>Catalog.Аудиозаписи</content>
   <content>Catalog.Источники</content>
   <parentSubsystem>Subsystem.БазаДанных</parentSubsystem>

@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsVariableWidth</workingAreaTemplate>
   <columns>
     <items>
-      <form>Report.ЗапасыКонтента.Form.ФормаОтчета</form>
-      <height>10</height>
+      <form>Report.Контентплан.Form.ФормаОтчета</form>
+      <height>13</height>
       <visibility>
         <common>true</common>
       </visibility>
     </items>
     <items>
-      <form>Catalog.Сообщества.Form.ФормаСписка</form>
-      <height>10</height>
+      <form>Report.ОсновнаяСтатистика.Form.ФормаОтчета</form>
+      <height>12</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+  <columns>
+    <items>
+      <form>Report.ЗапасыКонтента.Form.ФормаОтчета</form>
+      <height>13</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
+      <form>InformationRegister.ЖурналИсключений.Form.ФормаСписка</form>
+      <height>12</height>
       <visibility>
         <common>true</common>
       </visibility>

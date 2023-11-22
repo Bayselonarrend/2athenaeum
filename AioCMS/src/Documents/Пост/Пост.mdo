@@ -41,6 +41,7 @@
     <type>
       <types>CatalogRef.Аудиозаписи</types>
       <types>CatalogRef.События</types>
+      <types>CatalogRef.Сложнопост</types>
       <types>CatalogRef.Цитаты</types>
       <types>CatalogRef.Термины</types>
       <types>CatalogRef.Произведения</types>

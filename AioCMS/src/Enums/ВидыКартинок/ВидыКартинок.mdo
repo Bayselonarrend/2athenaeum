@@ -47,4 +47,11 @@
       <value>Лекция</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="23083fcf-1443-4f7f-9627-ef3ea072bd6f">
+    <name>ПроизвольныйНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный набор</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

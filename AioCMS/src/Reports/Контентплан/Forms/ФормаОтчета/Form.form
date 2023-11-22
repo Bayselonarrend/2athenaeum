@@ -161,7 +161,7 @@
     <name>Отчет</name>
     <id>1</id>
     <valueType>
-      <types>ReportObject.ОсновнаяСтатистика</types>
+      <types>ReportObject.Контентплан</types>
     </valueType>
     <view>
       <common>true</common>

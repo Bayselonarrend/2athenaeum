@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="797a78e9-8341-427e-8f3e-2b385a5594a6">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование и статистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ПорядокПостов</content>
+  <content>InformationRegister.Статистика</content>
+  <content>InformationRegister.СтатистикаЗаписей</content>
+  <content>InformationRegister.Календарь</content>
+  <content>InformationRegister.ВыполнениеРасписания</content>
+  <content>Catalog.Расписание</content>
+  <content>Report.Контентплан</content>
+</mdclass:Subsystem>

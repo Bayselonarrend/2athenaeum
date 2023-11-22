@@ -84,4 +84,13 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="165d23d4-7635-495d-9cfb-8e8c9ff8ef89">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

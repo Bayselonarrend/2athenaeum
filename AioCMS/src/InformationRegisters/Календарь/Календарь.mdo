@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9ec7eb6-07a1-43ce-ad70-333737af7193">
+  <producedTypes>
+    <selectionType typeId="04b00e37-2a90-4ca6-a1f0-98c1b7cdcc47" valueTypeId="da2b26a5-64a6-4ccf-b4e6-512ad443829b"/>
+    <listType typeId="05255eca-b9c1-4514-b112-be5313cf3856" valueTypeId="5e127e11-e2c1-4c9b-a7f9-6333816b75de"/>
+    <managerType typeId="69734c8b-312e-4ba1-891d-28ff1857f065" valueTypeId="92c7bfa9-d9b2-4f28-8518-e9204be94390"/>
+    <recordSetType typeId="d871fe4e-6998-47e0-bae3-c32b527d3f4c" valueTypeId="dce71c75-5efe-433b-ae5a-55daf95fd482"/>
+    <recordKeyType typeId="1f6b5690-50ad-4268-8ce6-63f3ed245d41" valueTypeId="9b7dfbc8-2d53-447a-aebd-4a67f0737b97"/>
+    <recordType typeId="35d8eae6-a020-4bcb-99f8-1b0991c5ef1a" valueTypeId="f6932e91-ed83-4c21-a448-5ca39cbdc63c"/>
+    <recordManagerType typeId="cefc6d2e-a451-4a55-b5cc-e8137f32a5b4" valueTypeId="44647704-db0b-4858-b063-7de096dc78a5"/>
+  </producedTypes>
+  <name>Календарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Календарь.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>День</value>
+  </recordPresentation>
+  <dimensions uuid="cce1a9a6-420b-449d-b861-b0b322c262b6">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c352f374-9aab-4430-ae84-a72d20b34929">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -47,6 +47,7 @@
   <subsystems>Subsystem.Сообщества</subsystems>
   <subsystems>Subsystem.Реклама</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
+  <subsystems>Subsystem.Планирование</subsystems>
   <styles>Style.Главный</styles>
   <commonPictures>CommonPicture.Контент</commonPictures>
   <commonPictures>CommonPicture.БД</commonPictures>
@@ -104,14 +105,15 @@
   <reports>Report.ЗапасыКонтента</reports>
   <reports>Report.ОтчетПоФинансам</reports>
   <reports>Report.ОтчетПоСообществу</reports>
+  <reports>Report.Контентплан</reports>
   <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
   <informationRegisters>InformationRegister.ПорядокПостов</informationRegisters>
   <informationRegisters>InformationRegister.ЖурналИсключений</informationRegisters>
   <informationRegisters>InformationRegister.Статистика</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеРасписания</informationRegisters>
-  <informationRegisters>InformationRegister.ПубликацияСложнопостов</informationRegisters>
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.Логирование</informationRegisters>
+  <informationRegisters>InformationRegister.Календарь</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
 </mdclass:Configuration>

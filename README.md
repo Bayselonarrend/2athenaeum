@@ -2,6 +2,9 @@
 
 # Two-Digit Athenaeum
 
+>VK: [https://vk.com/aioniotis](https://vk.com/aioniotis)<br>
+>Telegram: [https://t.me/aioniotis](https://t.me/aioniotis)
+
 *Two-Digit Athenaeum* - это облачная онлайн библиотека, расположенная по адресу https://athenaeum.digital. Книги в ней распространяются посредством отправки ботом сообщений в ВК и Telegram. Она состоит из:
 
 1. Сайта (html/css + js (ajax))
@@ -125,3 +128,10 @@ ___
 ## Для разработчиков, которые хотят поучаствовать ##
 
 Если у вас есть интересные идеи или вы пользуетесь билиотекой, но вам чего-то не хватает - присылайте. Помимо GitHub, у нас есть та самая [группа ВК](https://vk.com/aioniotis) - можно писать в обсуждения.
+
+<br>
+
+>![Infostart](https://github.com/Bayselonarrend/TelegramEnterprise/raw/main/infostart.svg)
+>
+>Статья на Инфостарте: [https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)
+

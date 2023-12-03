@@ -126,4 +126,29 @@
       <handler>takeStartcallBack</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="2de81b57-177a-48eb-9dee-9d15543e3120">
+    <name>miniApp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mini app</value>
+    </synonym>
+    <template>/tma</template>
+    <methods uuid="d2814486-42da-40cb-8c99-f33b831d728d">
+      <name>writeNewSession</name>
+      <synonym>
+        <key>ru</key>
+        <value>Write new session</value>
+      </synonym>
+      <handler>miniAppwriteNewSession</handler>
+    </methods>
+    <methods uuid="517463a1-fd55-4026-bfdb-535350938947">
+      <name>CORSCallback</name>
+      <synonym>
+        <key>ru</key>
+        <value>CORSCallback</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>miniAppCORSCallback</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

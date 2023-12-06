@@ -30,7 +30,12 @@ function AddEventListenerSearch() {
     searchInput.addEventListener('input', function() {
        
        mainblock.style.minHeight = '450px'; 
+       
+      if(copymi != undefined)
+      {
       copymi.style.display = "none";
+      }
+      
     	clearTimeout(searchTimeout);
 
     	searchTimeout = setTimeout(function() {

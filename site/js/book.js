@@ -70,11 +70,12 @@ function makeBook(){
     }
     else
     {
+            
       vk.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault();       
         ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + id + '&social=vk').then(function(success){
-          if(success) {showMessage('Отправлено!', 'success')}
+          if(success) {showMessage('Отправлено!', 'success'); closeMiniApp();}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и начали ли вы диалог с <a class="alert-a" href="https://vk.com/im?sel=-218704372">нашим ботом в ВК</a> (нужно нажать <i>"Начать"</i> или написать любое сообщение)' , 'danger')}
           });
         };
@@ -82,7 +83,7 @@ function makeBook(){
         let session = getCookie("uuid");
         event.preventDefault(); 
         ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + id + '&social=tg').then(function(success){         
-          if(success) {showMessage('Отправлено!', 'success')}
+          if(success) {showMessage('Отправлено!', 'success'); closeMiniApp();}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
           });   
       };    
@@ -92,5 +93,16 @@ function makeBook(){
     
   });
 
+}
+
+function closeMiniApp(){
+ 
+  let ma      = window.Telegram
+      
+  if (ma != undefined)
+  {
+    let tg      = ma.WebApp;
+    tg.close();
+  } 
 }
   

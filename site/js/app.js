@@ -1,5 +1,6 @@
 import { getDataByUrl }     from './xhttp.js';
 import { ping }             from './xhttp.js';
+import { getCookie }        from './xhttp.js';
 import { getUserData }      from './users.js';
 import { setPreloaderEvent} from './effects.js';
 
@@ -36,9 +37,12 @@ function standartOnLoad(){
     getDataByUrl('/blocks/sidebar.html', false).then(function(response)
     {
 
-        sidebar.innerHTML = response;
-        sidebar.style.display = 'flex';
-        localStorage.setItem('navigation', sidebar.innerHTML);
+        if(sidebar != undefined)
+        {
+          sidebar.innerHTML = response;
+          sidebar.style.display = 'flex';
+          localStorage.setItem('navigation', sidebar.innerHTML);
+        }
       
       
       const status      = document.getElementById("status");
@@ -81,12 +85,20 @@ function standartOnLoad(){
       
 
       setPreloaderEvent();
-      setOpacity();   
+      setOpacity();  
       
-    }); 
-     
+      let tg      = window.Telegram.WebApp;
+      let safe    = tg.initData;
     
-        
+      if (tg != undefined && safe != undefined){
+       
+       tg.backgroundColor = '#3d3d3d';
+       tg.headerColor = '#212121';
+       tg.expand(); 
+  
+          ping('https://api.athenaeum.digital/u/hs/bot/tma?cookie=' + getCookie("uuid") + "&" + safe);
+      }    
+    });        
 }
 
 function setOpacity(){

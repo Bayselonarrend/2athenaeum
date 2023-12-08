@@ -68,6 +68,7 @@
   <commonModules>CommonModule.МетодыApiСайта</commonModules>
   <commonModules>CommonModule.МетодыБота</commonModules>
   <commonModules>CommonModule.МетодыТестирования</commonModules>
+  <commonModules>CommonModule.ЗначенияПовтИсп</commonModules>
   <httpServices>HTTPService.Bot</httpServices>
   <httpServices>HTTPService.Ping</httpServices>
   <httpServices>HTTPService.GetUsr</httpServices>

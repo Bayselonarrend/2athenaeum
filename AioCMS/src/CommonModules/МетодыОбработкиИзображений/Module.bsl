@@ -640,7 +640,7 @@
 	+ ФотоВФ
 	+ " -pointsize 40 -fill silver -font Tahoma -gravity West -annotate +650+"
 	+ ОтступАвтора
-	+" '"
+	+ " '"
 	+ Источник
 	+ "' "
 	+ ФотоВФ	

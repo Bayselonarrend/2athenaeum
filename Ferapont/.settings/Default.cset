@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "settings": {
+    "bsl-variable-name-invalid": {
+      "enabled": false
+    }
+  }
+}

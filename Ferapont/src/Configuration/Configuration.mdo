@@ -65,14 +65,10 @@
   <commonModules>CommonModule.МетодыРаботыHttp</commonModules>
   <commonModules>CommonModule.МетодыРаботыTelegram</commonModules>
   <commonModules>CommonModule.МетодыРаботыVK</commonModules>
-  <commonModules>CommonModule.МетодыApiСайта</commonModules>
   <commonModules>CommonModule.МетодыБота</commonModules>
   <commonModules>CommonModule.МетодыТестирования</commonModules>
   <commonModules>CommonModule.ЗначенияПовтИсп</commonModules>
-  <httpServices>HTTPService.Bot</httpServices>
-  <httpServices>HTTPService.Ping</httpServices>
-  <httpServices>HTTPService.GetUsr</httpServices>
-  <httpServices>HTTPService.VkAuth</httpServices>
+  <commonModules>CommonModule.МетодыApiСайта</commonModules>
   <scheduledJobs>ScheduledJob.УстановитьЧислоСловНачалоДня</scheduledJobs>
   <scheduledJobs>ScheduledJob.РассылкаНапоминаний</scheduledJobs>
   <constants>Constant.ПапкаСайта</constants>
@@ -106,6 +102,7 @@
   <enums>Enum.ВидДанныхЛогирования</enums>
   <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
   <dataProcessors>DataProcessor.ОбновлениеКниг</dataProcessors>
+  <dataProcessors>DataProcessor.NodeProcessor</dataProcessors>
   <informationRegisters>InformationRegister.ПотоковоеЧтение</informationRegisters>
   <informationRegisters>InformationRegister.АктивныеСеансы</informationRegisters>
   <informationRegisters>InformationRegister.ДневнойПрогресс</informationRegisters>

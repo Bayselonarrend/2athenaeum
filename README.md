@@ -131,7 +131,7 @@ ___
    Однажды стандартная схема была заменена на вот это. О приницпе действия можно подробнее узнать в [статье на Инфостарте](https://infostart.ru/1c/articles/1996431/). Если кратко:
    - Есть простой node.js сервер, связанный с внешним миром через nginx
    - Внутри скрипта сервера при его старте поднимается COM соединение (V83.ComConnector) с 1С. Делается это посредством библиотеки [winax (node-activex)](https://github.com/durs/node-activex)
-   - Как только на сервер поступает запрос, node.js через COM метод 1С, передавая туда полученные данные в качестве параметра.
+   - Как только на сервер поступает запрос, node.js через COM вызывает метод 1С, передавая туда полученные данные в качестве параметра.
 
    Это просто работает быстрее и стабильнее стандартных http-сервисов на IIS, даже при все дурной славе COM-соединения
    
@@ -143,7 +143,10 @@ ___
 
 >![Infostart](https://github.com/Bayselonarrend/TelegramEnterprise/raw/main/infostart.svg)
 >
->Статья на Инфостарте: [https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)
+>Все статьи из недр проекта на Инфостарте: 
+>[https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)
+>[https://infostart.ru/1c/articles/1996431/](https://infostart.ru/1c/articles/1996431/)
+>[https://infostart.ru/1c/articles/1923036/](https://infostart.ru/1c/articles/1923036/)
 
 <br>
 <hr>

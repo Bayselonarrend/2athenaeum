@@ -1,6 +1,6 @@
 @font-face{
 
-    font-family:"Book Antiqua";
+    font-family:"Book Antiqua", serif;
     
     src: url("/fonts/bookantiqua.ttf");
     font-display: swap;
@@ -48,7 +48,7 @@ span{
 }
 
 h1,h2,h3{
- font-family: Book Antiqua; 
+ font-family: Book Antiqua, serif; 
 }
 
 h1,h2{

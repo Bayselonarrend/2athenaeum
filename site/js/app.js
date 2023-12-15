@@ -21,7 +21,7 @@ window.addEventListener ('pageshow', function (event) {
   
 });
 
-window.onload = standartOnLoad();
+standartOnLoad();
 
 function standartOnLoad(){
   

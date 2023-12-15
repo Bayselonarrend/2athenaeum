@@ -2,5 +2,5 @@ projectKey=AioniotisWeb
 serverUrl=https://api.athenaeum.digital/Sonar
 serverVersion=8.9.10.61524
 dashboardUrl=https://api.athenaeum.digital/Sonar/dashboard?id=AioniotisWeb
-ceTaskId=AYxsQL6BFZEPzvTOM-0-
-ceTaskUrl=https://api.athenaeum.digital/Sonar/api/ce/task?id=AYxsQL6BFZEPzvTOM-0-
+ceTaskId=AYxsdqO6FZEPzvTOM-27
+ceTaskUrl=https://api.athenaeum.digital/Sonar/api/ce/task?id=AYxsdqO6FZEPzvTOM-27

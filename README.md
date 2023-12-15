@@ -144,9 +144,9 @@ ___
 >![Infostart](https://github.com/Bayselonarrend/TelegramEnterprise/raw/main/infostart.svg)
 >
 >Все статьи из недр проекта на Инфостарте: 
->[https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)
->[https://infostart.ru/1c/articles/1996431/](https://infostart.ru/1c/articles/1996431/)
->[https://infostart.ru/1c/articles/1923036/](https://infostart.ru/1c/articles/1923036/)
+>[https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)<br>
+>[https://infostart.ru/1c/articles/1996431/](https://infostart.ru/1c/articles/1996431/)<br>
+>[https://infostart.ru/1c/articles/1923036/](https://infostart.ru/1c/articles/1923036/)<br>
 
 <br>
 <hr>

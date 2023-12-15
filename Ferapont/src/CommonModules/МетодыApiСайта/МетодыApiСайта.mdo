@@ -7,5 +7,5 @@
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
-  <serverCall>true</serverCall>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

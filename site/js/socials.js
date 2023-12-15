@@ -1,7 +1,7 @@
-import { getDataByUrl }   from './xhttp.js';
-import { getCookie }      from './xhttp.js';
-import { uuidv4 }         from './xhttp.js';
-import { ping }           from './xhttp.js';
+import { getDataByUrl }   from './xhttp.js?v4';
+import { getCookie }      from './xhttp.js?v4';
+import { uuidv4 }         from './xhttp.js?v4';
+import { ping }           from './xhttp.js?v4';
 
 var params  = (new URL(document.location)).searchParams;
 var from    = params.get("from");
@@ -44,7 +44,7 @@ function vkLogin(session){
     return;
   }
 
-  element.href      =  ('https://oauth.vk.com/authorize?client_id=51654824&display=page&redirect_uri=https://api.athenaeum.digital/u/hs/bot/vklogin?uuid=' + session + '&response_type=code&v=5.131'); 
+  element.href      =  ('https://oauth.vk.com/authorize?client_id=51654824&display=page&redirect_uri=https://api.athenaeum.digital/node/bot/vk_login?uuid=' + session + '&response_type=code&v=5.131'); 
 
 }
 
@@ -63,7 +63,7 @@ function returnSession(existing = ""){
     let session;
     let expires;
     
-    ping('https://api.athenaeum.digital/u/hs/getUsr/cookieAvailable?cookie=' + uuid).then(function(success)
+    ping('https://api.athenaeum.digital/node/bot/site_session?cookie=' + uuid).then(function(success)
     {
       
       if(success)

@@ -1,5 +1,5 @@
-import { getUserData }    from './users.js';
-import { getCookie }      from './xhttp.js';
+import { getUserData }    from './users.js?v4';
+import { getCookie }      from './xhttp.js?v4';
 
 function setPreloaderEvent(){
    

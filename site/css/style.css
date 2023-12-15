@@ -60,7 +60,7 @@ span{
 }
 
 h1,h2,h3{
- font-family: Book Antiqua; 
+ font-family: "Book Antiqua", serif; 
 }
 
 h1,h2{
@@ -186,7 +186,6 @@ td{
     font-size:5px;
     z-index:99;
     box-shadow:rgba(0,0,0,.40) 0px 5px 10px;
-    background:linear-gradient(180deg,#202020,#252525,#282828,#303030);
     background-size:400% 400%;  
 }
 
@@ -419,7 +418,6 @@ td{
 .small-author{
     color:#fff;
     font-size:13px;
-    font-family: Trattatello;
     font-style: italic;
     position:absolute;
     margin: auto;

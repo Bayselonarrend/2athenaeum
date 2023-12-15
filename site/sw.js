@@ -20,7 +20,6 @@ function updateStaticCache() {
         return staticCache.addAll([
             '/fonts/bookantiqua.ttf',
             '/authors.html',
-            '/login.html',
             '/author.html',
             '/blocks/sidebar.html',
             '/offline',
@@ -29,7 +28,7 @@ function updateStaticCache() {
             '/css/open-iconic-bootstrap.min.css',
             '/css/font-awesome.min.css',
             '/css/bootstrap.min.css',
-            '/js/app.js',
+
         ]);
     });
 }
@@ -89,6 +88,10 @@ if (registration.navigationPreload) {
 }
 
 self.addEventListener('message', event => {
+   
+    if (event.origin !== "https://athenaeum.digital") // Compliant
+    return;
+  
     if (event.data.command == 'trimCaches') {
         trimCache(pagesCacheName, maxPages);
         trimCache(imagesCacheName, maxImages);

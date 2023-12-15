@@ -1,5 +1,5 @@
-import { getDataByUrl }   from './xhttp.js';
-import { setPreloaderEvent } from './effects.js';
+import { getDataByUrl }   from './xhttp.js?v4';
+import { setPreloaderEvent } from './effects.js?v4';
 
 document.addEventListener("DOMContentLoaded", AddEventListenerSearch);
 
@@ -199,12 +199,10 @@ function search(query, searchIndex, authorsIndex, glossaryIndex) {
       }
     }
     
-    authorsLength  = Object.keys(results).length;  
+    authorsLength = Object.keys(results).length;  
     aIndex        = results;
     results       = {};
-    
-    searchLength    = searchLength;
-    ti              = 0;
+    ti            = 0;
     
     for (let j = 0; j < searchLength; j++) {
       const book = sIndex[j];

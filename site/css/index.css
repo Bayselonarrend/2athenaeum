@@ -42,14 +42,12 @@ small{
 
 }
 .mainblock{
-    margin-left:1vw;
     text-align:center;
     overflow-y:none;
     border-left: 1px solid white;
     box-shadow: -2px 0 0 0 rgba(0,0,0,.40);
     margin: auto;
     padding-top: 15px;
-
     transition: all 1s ease-out;
 }
 
@@ -179,7 +177,6 @@ small{
   
   .books-grid{
   margin-top: 20px;
-  margin: auto;
   padding: 0;
 
   }

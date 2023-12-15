@@ -3,7 +3,7 @@
 # Two-Digit Athenaeum
 
 >VK: [https://vk.com/aioniotis](https://vk.com/aioniotis)<br>
->Telegram: [https://t.me/aioniotis](https://t.me/aioniotis)
+>Telegram: [https://t.me/aioniotis](https://t.me/aioniotis)<br>
 >Сайт: [https://athenaeum.digital/](https://athenaeum.digital/)
 
 *Two-Digit Athenaeum* - это облачная онлайн библиотека, расположенная по адресу https://athenaeum.digital. Книги в ней распространяются посредством отправки ботом сообщений в ВК и Telegram. Она состоит из:

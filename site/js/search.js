@@ -1,5 +1,5 @@
-import { getDataByUrl }   from './xhttp.js';
-import { setPreloaderEvent } from './effects.js';
+import { getDataByUrl }   from './xhttp.js?v4';
+import { setPreloaderEvent } from './effects.js?v4';
 
 document.addEventListener("DOMContentLoaded", AddEventListenerSearch);
 

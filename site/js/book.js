@@ -1,8 +1,8 @@
-import { getDataByUrl }   from './xhttp.js';
-import { getCookie }      from './xhttp.js';
-import { getUserData }    from './users.js';
-import { ping }           from './xhttp.js';
-import { showMessage }    from './effects.js';
+import { getDataByUrl }   from './xhttp.js?v4';
+import { getCookie }      from './xhttp.js?v4';
+import { getUserData }    from './users.js?v4';
+import { ping }           from './xhttp.js?v4';
+import { showMessage }    from './effects.js?v4';
 
 document.addEventListener("DOMContentLoaded", makeBook);
 
@@ -74,7 +74,7 @@ function makeBook(){
       vk.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault();       
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + id + '&social=vk').then(function(success){
+        ping('https://api.athenaeum.digital/node/bot/site_start?cookie=' + session + '&book=' + id + '&social=vk').then(function(success){
           if(success) {showMessage('Отправлено!', 'success'); closeMiniApp();}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и начали ли вы диалог с <a class="alert-a" href="https://vk.com/im?sel=-218704372">нашим ботом в ВК</a> (нужно нажать <i>"Начать"</i> или написать любое сообщение)' , 'danger')}
           });
@@ -82,7 +82,7 @@ function makeBook(){
       tg.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault(); 
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + id + '&social=tg').then(function(success){         
+        ping('https://api.athenaeum.digital/node/bot/site_start?cookie=' + session + '&book=' + id + '&social=tg').then(function(success){         
           if(success) {showMessage('Отправлено!', 'success'); closeMiniApp();}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
           });   

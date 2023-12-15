@@ -1,6 +1,6 @@
-import { getDataByUrl }   from './xhttp.js';
-import { getCookie }      from './xhttp.js';
-import { uuidv4 }         from './xhttp.js';
+import { getDataByUrl }   from './xhttp.js?v4';
+import { getCookie }      from './xhttp.js?v4';
+import { uuidv4 }         from './xhttp.js?v4';
 
 function getUserData(){
   
@@ -9,7 +9,7 @@ function getUserData(){
     let session = getCookie("uuid");
     let ready   = false;
     
-    getDataByUrl('https://api.athenaeum.digital/u/hs/getUsr?cookie=' + session, true).then(function(response)
+    getDataByUrl('https://api.athenaeum.digital/node/bot/site_user?cookie=' + session, true).then(function(response)
     {
          
       if ((response) && response.status == "ok")
@@ -35,7 +35,7 @@ function getBooksList(count){
     
     count       = count == 0 ? '' : count;
     
-    getDataByUrl('https://api.athenaeum.digital/u/hs/getUsr/getBooksList?cookie=' + session + '&count=' + count, true).then(function(response)
+    getDataByUrl('https://api.athenaeum.digital/node/bot/site_list?cookie=' + session + '&count=' + count, true).then(function(response)
     
     {
          

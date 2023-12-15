@@ -1,0 +1,6 @@
+projectKey=Ferapont
+serverUrl=https://api.athenaeum.digital/Sonar
+serverVersion=8.9.10.61524
+dashboardUrl=https://api.athenaeum.digital/Sonar/dashboard?id=Ferapont
+ceTaskId=AYxsQGBUFZEPzvTOM-09
+ceTaskUrl=https://api.athenaeum.digital/Sonar/api/ce/task?id=AYxsQGBUFZEPzvTOM-09

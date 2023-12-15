@@ -1,0 +1,6 @@
+projectKey=AioniotisCMS
+serverUrl=https://api.athenaeum.digital/Sonar
+serverVersion=8.9.10.61524
+dashboardUrl=https://api.athenaeum.digital/Sonar/dashboard?id=AioniotisCMS
+ceTaskId=AYxsQBlEFZEPzvTOM-08
+ceTaskUrl=https://api.athenaeum.digital/Sonar/api/ce/task?id=AYxsQBlEFZEPzvTOM-08

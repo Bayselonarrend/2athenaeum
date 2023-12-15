@@ -1,8 +1,8 @@
-import { getDataByUrl }     from './xhttp.js';
-import { ping }             from './xhttp.js';
-import { getCookie }        from './xhttp.js';
-import { getUserData }      from './users.js';
-import { setPreloaderEvent} from './effects.js';
+import { getDataByUrl }     from './xhttp.js?v4';
+import { ping }             from './xhttp.js?v4';
+import { getCookie }        from './xhttp.js?v4';
+import { getUserData }      from './users.js?v4';
+import { setPreloaderEvent} from './effects.js?v4';
 
 const content     = document.getElementById('content');
 const sidebar     = document.getElementById('sidebar');
@@ -10,6 +10,10 @@ const vkbar       = document.getElementById('vk_groups');
 
 
 window.addEventListener ('pageshow', function (event) {
+  
+    if (event.currentTarget.origin !== "https://athenaeum.digital") // Compliant
+    return;
+  
   if (event.persisted) 
   {
     setOpacity();
@@ -25,7 +29,9 @@ function standartOnLoad(){
         {
          navigator.serviceWorker.register('/sw.js').then(
            function(registration) {
-             console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+             console.log('ServiceWorker registration successful with scope: ', registration.scope); 
+             
+             },
            function(err) {
              console.log('ServiceWorker registration failed: ', err);
            });
@@ -49,7 +55,7 @@ function standartOnLoad(){
       const info        = document.getElementById("statinfo");
       const profile     = document.getElementById('profilelink');
       
-      ping('https://api.athenaeum.digital/u/hs/ping')
+      ping('https://api.athenaeum.digital/node/bot/site_ping')
       .then(function(success)
       {
         
@@ -87,17 +93,21 @@ function standartOnLoad(){
       setPreloaderEvent();
       setOpacity();  
       
-      let tg      = window.Telegram.WebApp;
-      let safe    = tg.initData;
-    
-      if (tg != undefined && safe != undefined){
+      let tg      = window.Telegram;
+
+      
+    if(tg != undefined){
+      if (tg.WebApp != undefined && tg.WebApp.initData != undefined){
        
-       tg.backgroundColor = '#3d3d3d';
-       tg.headerColor = '#212121';
-       tg.expand(); 
+      let safe    = tg.WebApp.initData;
+      
+       tg.WebApp.backgroundColor = '#3d3d3d';
+       tg.WebApp.headerColor = '#212121';
+       tg.WebApp.expand(); 
   
-          ping('https://api.athenaeum.digital/u/hs/bot/tma?cookie=' + getCookie("uuid") + "&" + safe);
+          ping('https://api.athenaeum.digital/node/bot/tg_miniapp?cookie=' + getCookie("uuid") + "&" + safe);
       }    
+    }
     });        
 }
 

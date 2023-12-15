@@ -1,10 +1,10 @@
-import { getUserData }        from './users.js';
-import { getBooksList }       from './users.js';
-import { getCookie }          from './xhttp.js';
-import { ping }               from './xhttp.js';
-import { generateLinks }      from './socials.js';
-import { setPreloaderEvent }  from './effects.js';
-import { showMessage }        from './effects.js';
+import { getUserData }        from './users.js?v4';
+import { getBooksList }       from './users.js?v4';
+import { getCookie }          from './xhttp.js?v4';
+import { ping }               from './xhttp.js?v4';
+import { generateLinks }      from './socials.js?v4';
+import { setPreloaderEvent }  from './effects.js?v4';
+import { showMessage }        from './effects.js?v4';
 
 document.addEventListener("DOMContentLoaded", checkAuthBookList);
 
@@ -82,7 +82,7 @@ function makeBooksListFull(){
       vk.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault();       
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=vk').then(function(success){
+        ping('https://api.athenaeum.digital/node/bot/site_start?cookie=' + session + '&book=' + item.id + '&social=vk').then(function(success){
           if(success) {showMessage('Отправлено!', 'success')}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
           });
@@ -90,7 +90,7 @@ function makeBooksListFull(){
       tg.onclick = function(event) {
         let session = getCookie("uuid");
         event.preventDefault(); 
-        ping('https://api.athenaeum.digital/u/hs/bot/sendBook?cookie=' + session + '&book=' + item.id + '&social=tg').then(function(success){         
+        ping('https://api.athenaeum.digital/node/bot/site_start?cookie=' + session + '&book=' + item.id + '&social=tg').then(function(success){         
           if(success) {showMessage('Отправлено!', 'success')}
           else        {showMessage('Ошибка! Проверьте, подключен ли у вас аккаунт данной социальной сети и повторите попытку позже', 'danger')}
           });   

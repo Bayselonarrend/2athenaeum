@@ -1,10 +1,11 @@
-const http 	= require("http");
-const winax = require('winax');
-const url 	= require('url');
+const http 	 = require("http");
+const winax      = require('winax');
+const url 	 = require('url');
 
-const con 		= new ActiveXObject('V83.ComConnector', { activate: true });	
+const con 	= new ActiveXObject('V83.ComConnector', { activate: true });	
 const processor = con.Connect('srvr ="AIONIOTISCORE";Ref ="AioPg"').DataProcessors.NodeProcessor;
-	
+
+		
 function processePOST(request, response, method){
 	
 	return new Promise(function(resolve, reject) {
@@ -29,6 +30,7 @@ function processePOST(request, response, method){
 function processeGET(parsed, response, method){
 	
 	return new Promise(function(resolve, reject) {
+		
 		let data = parsed.query;
 		call1C(data, response, method).then(function(response)
 		{
@@ -46,7 +48,7 @@ function call1C(data, response, method){
 			response.statusCode = 200;
 			
 			if (responseData != undefined){
-				response.setHeader('Content-Type', 'application/json');
+				
 				resolve(responseData);	
 			}
 			else{
@@ -68,6 +70,7 @@ function call1C(data, response, method){
 http.createServer(function(request,response){
     
 	try{
+		
 	parsed 		= url.parse(request.url);
 	pathname 	= parsed.pathname;
 	
@@ -92,15 +95,14 @@ http.createServer(function(request,response){
 					break;
 				}
 				
-                case '/node/bot/site_start': {
+                		case '/node/bot/site_start': {
 
 					processeGET(parsed, response, 'TakeStart').then(function(responseData){;
-						response.end(responseData);
-						
+						response.end(responseData);		
 					});
 					break;
 				}
-				
+		
 				case '/node/bot/site_session': {
 
 					processeGET(parsed, response, 'CookieCheck').then(function(responseData){
@@ -189,7 +191,7 @@ http.createServer(function(request,response){
 					
 			switch (pathname) {
 				
-                case '/node/bot/tg_bot': {
+	                	case '/node/bot/tg_bot': {
 
 					processePOST(request, response, 'BotTelegram').then(function(responseData)
 					{
@@ -209,6 +211,7 @@ http.createServer(function(request,response){
 					break;
 					
 				}
+				
 				
 				default: {
 					response.statusCode = 404;

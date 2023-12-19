@@ -125,6 +125,8 @@ ___
 
     Информация о выполнении или невыполнении пишется в РС
 
+___
+
 4. nginx + Node.JS + COM
 
    Каталог nodejs
@@ -144,7 +146,7 @@ ___
 
 >![Infostart](https://github.com/Bayselonarrend/TelegramEnterprise/raw/main/infostart.svg)
 >
->Все статьи из недр проекта на Инфостарте: 
+>Все статьи из недр проекта на Инфостарте: <br>
 >[https://infostart.ru/1c/articles/1982182/](https://infostart.ru/1c/articles/1982182/)<br>
 >[https://infostart.ru/1c/articles/1996431/](https://infostart.ru/1c/articles/1996431/)<br>
 >[https://infostart.ru/1c/articles/1923036/](https://infostart.ru/1c/articles/1923036/)<br>
@@ -171,7 +173,7 @@ ___
 Для поднятия COM-соединения с 1С из node.js используется node-activex/winax 
 
 >Copyright (c) 2023 Yuri Dursin под MIT<br>
->https://github.com/durs/node-activex?tab=MIT-1-ov-file#readme<br>
+>https://github.com/durs/node-activex<br>
 >https://www.npmjs.com/package/winax
 
 

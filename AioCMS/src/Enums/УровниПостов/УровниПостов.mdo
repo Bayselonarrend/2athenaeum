@@ -40,4 +40,11 @@
       <value>III</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="a81c3b88-ba85-4aef-865a-240e6e12546e">
+    <name>IV</name>
+    <synonym>
+      <key>ru</key>
+      <value>IV</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

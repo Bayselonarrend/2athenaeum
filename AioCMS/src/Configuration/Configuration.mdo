@@ -90,6 +90,7 @@
   <catalogs>Catalog.Тэги</catalogs>
   <catalogs>Catalog.Аудиозаписи</catalogs>
   <catalogs>Catalog.Источники</catalogs>
+  <catalogs>Catalog.Биографии</catalogs>
   <documents>Document.Пост</documents>
   <documents>Document.ПополнениеКабинета</documents>
   <documents>Document.ЗатратыНаПрочиеРасходы</documents>
@@ -102,6 +103,7 @@
   <enums>Enum.ТипыСообществ</enums>
   <enums>Enum.ВидыАвторов</enums>
   <enums>Enum.ВидДанныхЛогирования</enums>
+  <enums>Enum.Углы</enums>
   <reports>Report.ОсновнаяСтатистика</reports>
   <reports>Report.ЗапасыКонтента</reports>
   <reports>Report.ОтчетПоФинансам</reports>

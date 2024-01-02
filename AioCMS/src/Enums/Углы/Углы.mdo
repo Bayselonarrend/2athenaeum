@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0b9de9-6d9a-47c2-9add-9f44057a3f81">
+  <producedTypes>
+    <refType typeId="af69446f-eed8-4f35-9c43-90788ed763f6" valueTypeId="0f572f3e-db01-45c0-8793-bc7af1a7e728"/>
+    <listType typeId="bdc0060f-5583-43fd-b4ff-c49508f73e14" valueTypeId="546e5de4-a839-4f65-a9ee-75d0942f8c16"/>
+    <managerType typeId="6da99a97-c042-4e1f-8bcd-c2a9a0f20c7b" valueTypeId="22666dbd-b84f-4203-88af-99fde5fd0884"/>
+  </producedTypes>
+  <name>Углы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Углы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cac9bb2a-6fd6-43d2-9eaa-c6701a065b65">
+    <name>NorthEast</name>
+    <synonym>
+      <key>ru</key>
+      <value>NorthEast</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb4da853-c362-4d43-91ee-c8f68d4100e5">
+    <name>NorthWest</name>
+    <synonym>
+      <key>ru</key>
+      <value>NorthWest</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35bad158-e43e-4835-a7a9-196ea0422a76">
+    <name>SouthEast</name>
+    <synonym>
+      <key>ru</key>
+      <value>SouthEast</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="845ef797-6f8f-4d12-bf56-cc8ea9d4c19a">
+    <name>SouthWest</name>
+    <synonym>
+      <key>ru</key>
+      <value>SouthWest</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17b758d4-2f86-4ba2-890b-7eeb7d84ecbf">
+    <name>Center</name>
+    <synonym>
+      <key>ru</key>
+      <value>Center</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

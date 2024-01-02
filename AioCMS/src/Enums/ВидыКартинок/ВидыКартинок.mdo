@@ -54,4 +54,11 @@
       <value>Произвольный набор</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="7aecda50-deb0-4226-9965-d30503842eb1">
+    <name>Биография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биография</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -115,6 +115,13 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="367b0d69-9b85-4063-92f1-87574ec11023">
+      <name>АтенейЧБ</name>
+      <description>Атеней ЧБ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
     <items id="2be3e6d4-541e-4256-9bd3-6eb36b22ff6e">
       <name>ДР</name>
       <description>ДР</description>

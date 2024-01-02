@@ -17,5 +17,6 @@
   <content>Catalog.Термины</content>
   <content>Catalog.Аудиозаписи</content>
   <content>Catalog.Источники</content>
+  <content>Catalog.Биографии</content>
   <parentSubsystem>Subsystem.БазаДанных</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d39aa6c-ad84-4f60-86c7-94e7ea4e5f8a">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a2231b-1d42-429d-b536-f727e72951c1">
   <producedTypes>
-    <objectType typeId="77eeefbc-30c5-4a2e-a923-c86061725315" valueTypeId="7b35819d-ce9e-439e-a0c2-55d92e254bb5"/>
-    <refType typeId="4390bac9-e235-42d4-ab0e-10a6723541c6" valueTypeId="ca67058a-edce-480a-9c3c-25488bdf8b9a"/>
-    <selectionType typeId="2929619c-d640-4e25-ac20-665f40bc2c0c" valueTypeId="8ebca100-12a1-43b7-b481-c3d5fed34417"/>
-    <listType typeId="aefcf9c9-0518-4b91-b41f-6f1de47ba857" valueTypeId="0145c1b7-ef8d-4e61-b29f-22c9c5139ab2"/>
-    <managerType typeId="404f0d78-3f6e-4e32-9c26-b4348fbce9bd" valueTypeId="04323ab6-4d2a-4864-957d-c93ea2a57625"/>
+    <objectType typeId="c2d8517d-8769-4dd9-ab41-2648ceffe37d" valueTypeId="84840a35-3c56-4e42-966b-1c245f495a43"/>
+    <refType typeId="693cbb1a-98a9-4a05-b6e1-e443b10cbd68" valueTypeId="70ab4470-8eaf-4551-becd-9c7380d29756"/>
+    <selectionType typeId="c14ced46-760e-48af-b8e1-04ae913a5ca3" valueTypeId="a6063003-556f-49ef-b56d-fda9cec14def"/>
+    <listType typeId="5e95df16-1457-456d-95f1-c805794467cc" valueTypeId="ce53e680-f16b-4341-9121-59acc8587809"/>
+    <managerType typeId="7f3f88ff-dfca-429c-becf-1fd4a8e61e6f" valueTypeId="8bbe3752-f630-44a3-8acb-aadd64d067e6"/>
   </producedTypes>
-  <name>События</name>
+  <name>Биографии</name>
   <synonym>
     <key>ru</key>
-    <value>События</value>
+    <value>Биографии</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.События.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Биографии.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Биографии.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Событие</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -34,50 +30,12 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.События.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="2f394fc2-4870-4393-99e9-8f7fcb8b4d23">
-    <name>Дата</name>
+  <defaultObjectForm>Catalog.Биографии.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c2263edf-e10d-4d7c-9bcb-cf8b8ae288db">
+    <name>Биография</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="d93f6437-23fa-4e61-8bbf-4296ee4cf711">
-    <name>Место</name>
-    <synonym>
-      <key>ru</key>
-      <value>Место</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>500</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="2060b820-2c1b-4cd9-b5c9-ff97114e8545">
-    <name>Описание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Описание</value>
+      <value>Биография</value>
     </synonym>
     <type>
       <types>String</types>
@@ -91,16 +49,16 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="03d958e6-82c4-42cc-bb81-01f45c8e8627">
-    <name>Картинка</name>
+  <attributes uuid="4a1f7370-86c3-4d45-912e-79beccc43537">
+    <name>ПериодЖизни</name>
     <synonym>
       <key>ru</key>
-      <value>Картинка</value>
+      <value>Период жизни</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>300</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -111,11 +69,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="53cca4ef-907f-41ef-bc34-fa2dbc9c4149">
-    <name>КартинкаДД</name>
+  <attributes uuid="be03cc34-eddd-42b1-bdc0-9ab2af5fff57">
+    <name>Картинка</name>
     <synonym>
       <key>ru</key>
-      <value>Картинка ДД</value>
+      <value>Картинка</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -126,15 +84,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="51583675-5d2e-4ec9-ae85-6506376e5c2d">
-    <name>Аннотация</name>
+  <attributes uuid="8d5a248e-70b6-4213-b9f6-5ebb3d1648d9">
+    <name>Путь</name>
     <synonym>
       <key>ru</key>
-      <value>Аннотация</value>
+      <value>Путь</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -144,11 +104,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="68272e7b-d4fe-453b-bd32-cc2231c0fa89">
-    <name>ОтступМарки</name>
+  <attributes uuid="d4c60fd1-b5e3-4474-bbd7-8df06c7f0e0d">
+    <name>ОсьX</name>
     <synonym>
       <key>ru</key>
-      <value>Отступ марки</value>
+      <value>Ось X</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -162,14 +122,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="95f778b6-3288-41be-a938-7eaf9bef314e">
-    <name>Сообщество</name>
+  <attributes uuid="22cdbab8-e55b-40e7-bb67-5ba87762a29d">
+    <name>ОсьY</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщество</value>
+      <value>Ось Y</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сообщества</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -177,7 +140,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="b2410397-b7af-4218-9de7-b6ae183f4eb8">
+  <attributes uuid="48af2487-010f-4737-9d96-4d6ff0981b1d">
+    <name>ДопОтступ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. отступ периода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88b239ba-03ec-4c99-86cf-d150e14f5207">
+    <name>РасположениеМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расположение марки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Углы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5b86dcd5-0ca9-4a71-8202-65b257a3cb0d">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

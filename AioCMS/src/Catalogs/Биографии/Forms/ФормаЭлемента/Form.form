@@ -126,7 +126,7 @@
           </dataPath>
           <handlers>
             <event>OnChange</event>
-            <name>ОсьXПриИзменении</name>
+            <name>ОсьYПриИзменении</name>
           </handlers>
           <extendedTooltip>
             <name>ОсьYРасширеннаяПодсказка</name>
@@ -180,7 +180,7 @@
           </dataPath>
           <handlers>
             <event>OnChange</event>
-            <name>ОсьXПриИзменении</name>
+            <name>ДопОтступПриИзменении</name>
           </handlers>
           <extendedTooltip>
             <name>ДопОтступРасширеннаяПодсказка</name>
@@ -412,7 +412,7 @@
         </dataPath>
         <handlers>
           <event>OnChange</event>
-          <name>ОсьXПриИзменении</name>
+          <name>РасположениеМаркиПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>РасположениеМаркиРасширеннаяПодсказка</name>

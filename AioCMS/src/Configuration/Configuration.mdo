@@ -58,6 +58,7 @@
   <commonPictures>CommonPicture.Финансы</commonPictures>
   <commonPictures>CommonPicture.Статистика</commonPictures>
   <commonModules>CommonModule.ИнструментарийВызовСервера</commonModules>
+  <commonModules>CommonModule.ИнструментарийКлиент</commonModules>
   <commonModules>CommonModule.МетодыРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.МетодыФормированияПостов</commonModules>
   <commonModules>CommonModule.МетодыОбработкиИзображений</commonModules>

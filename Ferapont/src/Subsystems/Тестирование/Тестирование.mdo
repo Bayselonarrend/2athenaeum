@@ -16,5 +16,4 @@
   <content>Catalog.АвтотестыСервисов</content>
   <content>Constant.ЗаписыватьТесты</content>
   <content>Catalog.ОпределителиТестов</content>
-  <content>DataProcessor.NodeProcessor</content>
 </mdclass:Subsystem>

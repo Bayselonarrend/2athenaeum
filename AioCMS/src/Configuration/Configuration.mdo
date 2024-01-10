@@ -46,7 +46,6 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Сообщества</subsystems>
   <subsystems>Subsystem.Реклама</subsystems>
-  <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.Планирование</subsystems>
   <styles>Style.Главный</styles>
   <commonPictures>CommonPicture.Контент</commonPictures>
@@ -66,7 +65,6 @@
   <commonModules>CommonModule.МетодыРаботыTelegram</commonModules>
   <commonModules>CommonModule.МетодыРаботыVK</commonModules>
   <scheduledJobs>ScheduledJob.ПолучитьСтатистику</scheduledJobs>
-  <scheduledJobs>ScheduledJob.ПолучитьКурсыВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыполнениеРасписания</scheduledJobs>
   <catalogs>Catalog.Люди</catalogs>
   <catalogs>Catalog.Страны</catalogs>
@@ -93,9 +91,6 @@
   <catalogs>Catalog.Источники</catalogs>
   <catalogs>Catalog.Биографии</catalogs>
   <documents>Document.Пост</documents>
-  <documents>Document.ПополнениеКабинета</documents>
-  <documents>Document.ЗатратыНаПрочиеРасходы</documents>
-  <documentJournals>DocumentJournal.ФинансовыеОперации</documentJournals>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СоцСети</enums>
   <enums>Enum.ВидыКартинок</enums>
@@ -107,17 +102,14 @@
   <enums>Enum.Углы</enums>
   <reports>Report.ОсновнаяСтатистика</reports>
   <reports>Report.ЗапасыКонтента</reports>
-  <reports>Report.ОтчетПоФинансам</reports>
   <reports>Report.ОтчетПоСообществу</reports>
   <reports>Report.Контентплан</reports>
   <dataProcessors>DataProcessor.КонсольЗаданий_УФ</dataProcessors>
   <informationRegisters>InformationRegister.ПорядокПостов</informationRegisters>
   <informationRegisters>InformationRegister.ЖурналИсключений</informationRegisters>
   <informationRegisters>InformationRegister.Статистика</informationRegisters>
-  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ВыполнениеРасписания</informationRegisters>
   <informationRegisters>InformationRegister.СтатистикаЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.Логирование</informationRegisters>
   <informationRegisters>InformationRegister.Календарь</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.Финансы</accumulationRegisters>
 </mdclass:Configuration>

@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Vk auth</value>
   </synonym>
-  <rootURL>takeVkToken</rootURL>
+  <rootURL>vklogin</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="539a6a53-b6f2-4be4-9bd8-998cd5f83ffa">
